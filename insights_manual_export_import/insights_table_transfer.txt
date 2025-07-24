@@ -1,0 +1,5 @@
+tabInsights Chart v3
+tabInsights Dashboard v3
+tabInsights Dashboard Chart v3
+tabInsights Query v3
+tabInsights Workbook

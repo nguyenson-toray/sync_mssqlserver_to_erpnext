@@ -2,22 +2,25 @@
 
 ## 📋 Tổng Quan
 
-Script `insights_manual_export_import.py` được thiết kế để export Insights data thành các file có thể transfer thủ công giữa các servers khác nhau.
+Script `insights_manual_export_import.py` được thiết kế để export Insights data thành các file có thể transfer thủ công giữa các servers khác nhau. Script được xây dựng dựa trên class `InsightsManualTransfer` với khả năng tự động nhận diện DocType và hỗ trợ multiple format export.
 
-### ✨ Tính Năng:
-- 🗃️ **Export đa định dạng**: JSON, SQL, CSV
-- 📦 **Tạo ZIP package** chứa tất cả formats
-- 🔄 **Import tự động** từ JSON hoặc ZIP
-- 🛡️ **Backup tự động** trước khi import
-- 📊 **Báo cáo chi tiết** quá trình export/import
+### ✨ Tính Năng Chính:
+- 🗃️ **Export đa định dạng**: JSON, SQL, CSV với khả năng tự chọn format
+- 📦 **Tạo ZIP package** tự động chứa tất cả các format đã export
+- 🔄 **Import tự động** từ JSON files hoặc ZIP package
+- 🛡️ **Backup tự động** trước khi import để đảm bảo an toàn
+- 📊 **Export summary** chi tiết với thống kê số lượng records
+- 🔍 **DocType auto-detection** tự động phát hiện các bảng Insights có sẵn
+- 📋 **Table mapping** từ file `insights_table_transfer.txt`
 
-### 📁 Các Data Được Transfer:
-- ✅ **Dashboards** - Bảng điều khiển
-- ✅ **Workbooks** - Sổ làm việc  
-- ✅ **Data Sources** - Nguồn dữ liệu
-- ✅ **Charts** - Biểu đồ
-- ✅ **Queries** - Truy vấn
-- ✅ **Settings** - Cài đặt
+### 📁 Các DocType Được Transfer:
+Script tự động load các DocType từ file `insights_table_transfer.txt` và hỗ trợ các alternative names:
+- ✅ **Insights Chart v3** (hoặc "Chart v3")
+- ✅ **Insights Dashboard v3** (hoặc "Dashboard v3") 
+- ✅ **Insights Dashboard Chart v3** (hoặc "Dashboard Chart v3")
+- ✅ **Insights Query v3** (hoặc "Query v3")
+- ✅ **Insights Workbook** (hoặc "Workbook")
+- ✅ Các DocType khác được định nghĩa trong `insights_table_transfer.txt`
 
 ## 🛠️ Yêu Cầu Hệ Thống
 
@@ -37,33 +40,74 @@ bench get-app insights
 bench --site your-site install-app insights
 ```
 
-## 📥 Cài Đặt Script
+## 📥 Sử Dụng Script
 
-### 1. Tải Script
+### 1. Script Location
+Script được đặt trong thư mục:
 ```bash
-# Tạo thư mục
-mkdir -p ~/insights-transfer
-cd ~/insights-transfer
-
-# Tạo script file
-nano insights_manual_export_import.py
-# (Copy nội dung từ artifact)
-
-# Phân quyền
-chmod +x insights_manual_export_import.py
+/home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py
 ```
 
-### 2. Test Script
+### 2. Command Line Usage
 ```bash
-# Test script
-python3 insights_manual_export_import.py
+# Export (tất cả format)
+python3 insights_manual_export_import.py export <site_name>
+
+# Export format cụ thể
+python3 insights_manual_export_import.py export <site_name> [json|sql|csv|all]
+
+# Import
+python3 insights_manual_export_import.py import <site_name> <file_or_dir_path>
+```
+
+### 3. Examples
+```bash
+# Export tất cả format từ site source
+python3 insights_manual_export_import.py export erp-sonnt.tiqn.local
+
+# Export chỉ JSON
+python3 insights_manual_export_import.py export erp-sonnt.tiqn.local json
+
+# Import từ ZIP package
+python3 insights_manual_export_import.py import erp.tiqn.local insights_export_20250724_103015.zip
+
+# Import từ JSON directory
+python3 insights_manual_export_import.py import erp.tiqn.local insights_export_20250724_103015/
 ```
 
 ## 🚀 Cách Sử Dụng
 
 ### 📤 EXPORT DATA (Trên Server Nguồn)
 
-#### 1. Export Sử Dụng Bench Console (Khuyến nghị)
+#### Phương Pháp 1: Sử Dụng Script (Khuyến nghị)
+```bash
+cd /home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import
+
+# Export tất cả format (tạo ZIP package)
+python3 insights_manual_export_import.py export erp-sonnt.tiqn.local
+
+# Hoặc export chỉ JSON
+python3 insights_manual_export_import.py export erp-sonnt.tiqn.local json
+```
+
+**Output mẫu:**
+```
+🚀 Starting export from erp-sonnt.tiqn.local
+📋 Format: all
+[14:30:15] INFO: Starting JSON export from erp-sonnt.tiqn.local
+[14:30:15] INFO: Current directory: /home/sonnt/frappe-bench
+[14:30:15] INFO: Sites directory exists: True
+[14:30:15] INFO: Target site exists: True
+[14:30:16] INFO: Exporting 2 records from Insights Data Source
+[14:30:16] INFO: ✅ Exported 2 records to insights_data_source.json  
+[14:30:16] INFO: Exporting 1 records from Insights Workbook
+[14:30:16] INFO: ✅ Exported 1 records to insights_workbook.json
+[14:30:16] INFO: ✅ JSON export completed: insights_export_20250724_143016
+✅ Export completed successfully!
+📁 Export location: insights_export_20250724_143016.zip
+```
+
+#### Phương Pháp 2: Sử Dụng Bench Console (Thay thế)
 ```bash
 cd ~/frappe-bench
 bench --site erp-sonnt.tiqn.local console
@@ -77,7 +121,7 @@ from datetime import datetime
 
 # Simple export function
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-export_dir = f'insights_export_{timestamp}'
+export_dir = f'/home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_export_{timestamp}'
 os.makedirs(export_dir, exist_ok=True)
 
 doctypes = ['Insights Settings', 'Insights Data Source', 'Insights Query', 'Insights Chart', 'Insights Workbook', 'Insights Dashboard']
@@ -139,39 +183,53 @@ Export completed! Files saved to: insights_export_20250724_203809
 Total records exported: 3
 ```
 
-#### 2. Export Sử Dụng Script (Thay thế)
-**⚠️ Lưu ý: Script cần chạy từ thư mục bench và có thể cần sửa đường dẫn**
+#### 3. Script tương thích với Bench Environment
+**⚠️ Lưu ý: Khi chạy script từ bench environment**
 
 ```bash
 cd ~/frappe-bench
-env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py export erp-sonnt.tiqn.local
+
+# Sử dụng Frappe's Python environment
+./env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py export erp-sonnt.tiqn.local
+
+# Hoặc từ thư mục script
+cd sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import
+../../../env/bin/python insights_manual_export_import.py export erp-sonnt.tiqn.local
 ```
 
 ### 📂 Cấu Trúc File Export
 
-**Console Export (Thư mục JSON):**
+**Script Export - Thư mục tạm (nội bộ):**
+```
+insights_export_20250724_143016/
+├── export_summary.json              # Tóm tắt export với metadata
+├── insights_chart_v3.json           # Chart data (nếu có)
+├── insights_dashboard_v3.json       # Dashboard data (nếu có)
+├── insights_dashboard_chart_v3.json # Dashboard Chart relationships
+├── insights_query_v3.json           # Query data (nếu có)
+├── insights_workbook.json           # Workbook data
+├── insights_data.sql                # SQL dump (nếu chọn SQL format)
+└── csv/                             # CSV files (nếu chọn CSV format)
+    ├── insights_chart_v3.csv
+    ├── insights_dashboard_v3.csv
+    └── ...
+```
+
+**Script Export - Final Output:**
+```
+insights_export_20250724_143016.zip  # ZIP package chứa tất cả
+├── All JSON files
+├── SQL dump (if requested)
+├── CSV directory (if requested)  
+└── export_summary.json
+```
+
+**Console Export (Thư mục JSON từ console):**
 ```
 ~/frappe-bench/sites/insights_export_20250724_203809/
 ├── insights_data_source.json        # Data source data (2 records)
 ├── insights_workbook.json           # Workbook data (1 record)
-└── (các file khác nếu có data)
-```
-
-**Script Export (ZIP Package - nếu script hoạt động):**
-```
-insights_export_20240724_103015.zip
-├── export_summary.json              # Tóm tắt export
-├── insights_dashboard.json          # Dashboard data
-├── insights_chart.json              # Chart data  
-├── insights_query.json              # Query data
-├── insights_data_source.json        # Data source data
-├── insights_workbook.json           # Workbook data
-├── insights_settings.json           # Settings data
-├── insights_data.sql                # SQL dump
-└── csv/                             # CSV files
-    ├── insights_dashboard.csv
-    ├── insights_chart.csv
-    └── ...
+└── (các file khác tùy theo data có sẵn)
 ```
 
 **Ví dụ thực tế từ export gần đây:**
@@ -185,11 +243,14 @@ sites/insights_export_20250724_203809/
 
 ### Phương Pháp 1: SCP (Khuyến nghị)
 ```bash
-# Copy thư mục export từ console
-scp -r ~/frappe-bench/sites/insights_export_20250724_203809/ user@target-server:~/insights-transfer/
+# Script export location (trong thư mục script)
+SCRIPT_DIR="/home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import"
 
-# Copy ZIP file (nếu có từ script)
-scp ~/insights-transfer/insights_export_20240724_103015.zip user@target-server:~/insights-transfer/
+# Copy ZIP file từ script export
+scp $SCRIPT_DIR/insights_export_20250724_143016.zip user@target-server:~/insights-transfer/
+
+# Copy thư mục export từ console (nếu dùng console method)
+scp -r ~/frappe-bench/sites/insights_export_20250724_203809/ user@target-server:~/insights-transfer/
 ```
 
 ### Phương Pháp 2: SFTP
@@ -224,7 +285,37 @@ zip -r insights_export.zip ~/frappe-bench/sites/insights_export_*/
 
 ## 📥 IMPORT DATA (Trên Server Đích)
 
-### 1. Import Sử Dụng Bench Console (Khuyến nghị)
+### Phương Pháp 1: Sử Dụng Script (Khuyến nghị)
+```bash
+cd /path/to/script/directory
+
+# Import từ ZIP package
+python3 insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_143016.zip
+
+# Import từ JSON directory
+python3 insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_203809/
+```
+
+**Output Import mẫu:**
+```
+🚀 Starting import to erp.tiqn.local
+📁 Import from: ~/insights-transfer/insights_export_20250724_143016.zip
+[15:30:10] INFO: Importing from ZIP: insights_export_20250724_143016.zip
+[15:30:10] INFO: Starting JSON import to erp.tiqn.local  
+[15:30:10] INFO: Creating backup before import...
+[15:30:12] INFO: Importing 2 records to Insights Data Source
+[15:30:12] INFO: Created: Query Store
+[15:30:12] INFO: Updated: Site DB
+[15:30:12] INFO: ✅ Imported 2/2 records from insights_data_source.json
+[15:30:13] INFO: Importing 1 records to Insights Workbook
+[15:30:13] INFO: Created: Inline
+[15:30:13] INFO: ✅ Imported 1/1 records from insights_workbook.json
+[15:30:13] INFO: ✅ Import completed. Total records imported: 3
+✅ Import completed successfully!
+🔔 Please verify your data in Insights app
+```
+
+### Phương Pháp 2: Sử Dụng Bench Console (Thay thế)
 ```bash
 cd ~/frappe-bench
 bench --site erp.tiqn.local console
@@ -316,14 +407,19 @@ def import_insights_data(import_dir):
     return total_imported
 
 # Sử dụng function với đường dẫn export directory
-import_dir = '/home/frappe/frappe-bench/insights-transfer/insights_export_20250724_203809'  # Sửa đường dẫn
+import_dir = '/home/frappe/frappe-bench/insights-transfer/insights_export_20250724_203809'  # Sửa đường dẫn theo thực tế
 import_insights_data(import_dir)
 ```
 
-### 2. Import Sử Dụng Script (Thay thế)
+### 3. Import với Bench Environment
 ```bash
 cd ~/frappe-bench
-env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_203809/
+
+# Sử dụng Frappe's Python environment
+./env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_143016.zip
+
+# Hoặc từ JSON directory
+./env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_203809/
 ```
 
 **Output Import mẫu:**
@@ -349,27 +445,32 @@ env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_
 #!/bin/bash
 
 SITE="erp-sonnt.tiqn.local"
-SCRIPT_DIR="~/insights-transfer"
+SCRIPT_DIR="/home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import"
 SCRIPT_PATH="$SCRIPT_DIR/insights_manual_export_import.py"
 
-echo "🚀 Starting Insights export..."
+echo "🚀 Starting Insights export from $SITE..."
 
-# Export
-cd ~/frappe-bench
+# Chuyển đến thư mục script
+cd $SCRIPT_DIR
+
+# Export với script
 python3 $SCRIPT_PATH export $SITE
 
-# Tìm file export mới nhất trong script directory
+# Tìm file export mới nhất trong script directory  
 EXPORT_FILE=$(ls -t $SCRIPT_DIR/insights_export_*.zip 2>/dev/null | head -1)
 
 if [ -f "$EXPORT_FILE" ]; then
     echo "✅ Export completed: $EXPORT_FILE"
     echo "📋 File size: $(du -h $EXPORT_FILE | cut -f1)"
+    echo "📁 Location: $EXPORT_FILE"
     echo ""
-    echo "📤 Transfer commands:"
-    echo "   scp $EXPORT_FILE user@target-server:~/insights-transfer/"
-    echo "   rsync -avz $EXPORT_FILE user@target-server:~/insights-transfer/"
+    echo "📤 Next steps:"
+    echo "   1. Transfer: scp $EXPORT_FILE user@target-server:~/insights-transfer/"
+    echo "   2. Import: python3 insights_manual_export_import.py import target-site $EXPORT_FILE"
 else
     echo "❌ No export file found!"
+    echo "📋 Available files in $SCRIPT_DIR:"
+    ls -la $SCRIPT_DIR/insights_export_* 2>/dev/null || echo "   (none)"
 fi
 ```
 
@@ -378,32 +479,49 @@ fi
 #!/bin/bash
 
 SITE="erp.tiqn.local"
-SCRIPT_DIR="~/insights-transfer"
+SCRIPT_DIR="/path/to/insights_manual_export_import"  # Adjust this path
 SCRIPT_PATH="$SCRIPT_DIR/insights_manual_export_import.py"
+TRANSFER_DIR="~/insights-transfer"
 
-echo "🚀 Starting Insights import..."
+echo "🚀 Starting Insights import to $SITE..."
 
-# Tìm file import mới nhất trong script directory
-IMPORT_FILE=$(ls -t $SCRIPT_DIR/insights_export_*.zip 2>/dev/null | head -1)
+# Kiểm tra arguments
+if [ $# -eq 1 ]; then
+    IMPORT_FILE="$1"
+    echo "📦 Using provided file: $IMPORT_FILE"
+else
+    # Tìm file import mới nhất trong transfer directory
+    IMPORT_FILE=$(ls -t $TRANSFER_DIR/insights_export_*.zip 2>/dev/null | head -1)
+fi
 
 if [ -f "$IMPORT_FILE" ]; then
     echo "📦 Import file: $IMPORT_FILE"
     echo "📋 File size: $(du -h $IMPORT_FILE | cut -f1)"
+    echo ""
+    
+    # Chuyển đến thư mục script
+    cd $SCRIPT_DIR
     
     # Import
-    cd ~/frappe-bench
-    python3 $SCRIPT_PATH import $SITE $IMPORT_FILE
+    python3 $SCRIPT_PATH import $SITE "$IMPORT_FILE"
     
     if [ $? -eq 0 ]; then
+        echo ""
         echo "✅ Import completed successfully!"
         echo "🔔 Please check Insights app to verify data"
+        echo "📋 Next steps:"
+        echo "   1. Login to ERPNext: http://your-site"
+        echo "   2. Open Insights app"
+        echo "   3. Verify Dashboards, Charts, Queries"
     else
-        echo "❌ Import failed!"
+        echo "❌ Import failed! Check logs above for details."
     fi
 else
-    echo "❌ No import file found in $SCRIPT_DIR"
-    echo "Available files:"
-    ls -la $SCRIPT_DIR/insights_export_* 2>/dev/null || echo "   (none)"
+    echo "❌ No import file found!"
+    echo "📋 Usage: ./import_insights.sh [path/to/export.zip]"
+    echo "📁 Or place file in: $TRANSFER_DIR"
+    echo "📋 Available files:"
+    ls -la $TRANSFER_DIR/insights_export_* 2>/dev/null || echo "   (none)"
 fi
 ```
 

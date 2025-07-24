@@ -1,0 +1,32 @@
+tabInsights Alert
+tabInsights Chart
+tabInsights Chart v3
+tabInsights Dashboard
+tabInsights Dashboard Chart v3
+tabInsights Dashboard Item
+tabInsights Dashboard v3
+tabInsights Data Source
+tabInsights Data Source v3
+tabInsights Notebook
+tabInsights Notebook Page
+tabInsights Query
+tabInsights Query Chart
+tabInsights Query Column
+tabInsights Query Execution Log
+tabInsights Query Result
+tabInsights Query Table
+tabInsights Query Transform
+tabInsights Query Variable
+tabInsights Query v3
+tabInsights Resource Permission
+tabInsights Table
+tabInsights Table Column
+tabInsights Table Import
+tabInsights Table Import Log
+tabInsights Table Link
+tabInsights Table Link v3
+tabInsights Table v3
+tabInsights Team
+tabInsights Team Member
+tabInsights User Invitation
+tabInsights Workbook

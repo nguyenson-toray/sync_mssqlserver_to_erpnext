@@ -22,30 +22,50 @@ class InsightsManualTransfer:
         self.script_dir = os.path.dirname(os.path.abspath(__file__))
         self.export_dir = os.path.join(self.script_dir, f"insights_export_{self.timestamp}")
         
-        # Insights DocTypes in dependency order
-        self.doctypes = [
-            "Insights Settings",
-            "Insights Data Source", 
-            "Insights Query",
-            "Insights Chart", 
-            "Insights Workbook",
-            "Insights Dashboard"
-        ]
+        # Load table names from insights_table_transfer.txt
+        self.doctypes = self._load_target_tables()
         
         # Alternative DocType names (some versions might use different names)
         self.doctype_alternatives = {
-            "Insights Dashboard": ["Dashboard", "Insights Dashboard"],
-            "Insights Chart": ["Chart", "Insights Chart"],
-            "Insights Query": ["Query", "Insights Query"], 
-            "Insights Data Source": ["Query Data Source", "Insights Data Source"],
-            "Insights Workbook": ["Insights Workbook"],
-            "Insights Settings": ["Insights Settings"]
+            "Insights Dashboard v3": ["Dashboard v3", "Insights Dashboard v3"],
+            "Insights Chart v3": ["Chart v3", "Insights Chart v3"],
+            "Insights Query v3": ["Query v3", "Insights Query v3"], 
+            "Insights Dashboard Chart v3": ["Dashboard Chart v3", "Insights Dashboard Chart v3"],
+            "Insights Workbook": ["Workbook", "Insights Workbook"]
         }
         
         # Create export directory
         if mode == "export":
             os.makedirs(self.export_dir, exist_ok=True)
             
+    def _load_target_tables(self):
+        """Load table names from insights_table_transfer.txt"""
+        transfer_file = os.path.join(self.script_dir, "insights_table_transfer.txt")
+        doctypes = []
+        
+        if os.path.exists(transfer_file):
+            with open(transfer_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and line.startswith('tabInsights'):
+                        # Convert table name to DocType name (remove 'tab' prefix)
+                        doctype = line[3:]  # Remove 'tab' prefix
+                        doctypes.append(doctype)
+            
+            self.log(f"Loaded {len(doctypes)} tables from {transfer_file}")
+        else:
+            self.log(f"Transfer file not found: {transfer_file}", "WARNING")
+            # Fallback to default if file doesn't exist
+            doctypes = [
+                "Insights Chart v3",
+                "Insights Dashboard v3", 
+                "Insights Dashboard Chart v3",
+                "Insights Query v3",
+                "Insights Workbook"
+            ]
+        
+        return doctypes
+
     def log(self, message, level="INFO"):
         """Simple logging"""
         timestamp = datetime.now().strftime('%H:%M:%S')

@@ -1,0 +1,13 @@
+[
+  {
+    "name": 12,
+    "docstatus": 0,
+    "title": "Inline",
+    "data_backup": null,
+    "doctype": "Insights Workbook",
+    "queries": "[\n {\n  \"is_builder_query\": 0,\n  \"is_native_query\": 1,\n  \"is_script_query\": 0,\n  \"name\": \"45rcvmvahj\",\n  \"title\": \"T58_InLineData_sum_by_date\"\n },\n {\n  \"is_builder_query\": 0,\n  \"is_native_query\": 1,\n  \"is_script_query\": 0,\n  \"name\": \"d54efu19h7\",\n  \"title\": \"T58_InLineData_sum_by_group\"\n }\n]",
+    "charts": "[\n {\n  \"chart_type\": \"Bar\",\n  \"name\": \"5bsknt822h\",\n  \"query\": \"45rcvmvahj\",\n  \"title\": \" CHUY\\u1ec0N 1 - K\\u1ebeT QU\\u1ea2 KI\\u1ec2M H\\u00c0NG INLINE - THEO NG\\u00c0Y\"\n },\n {\n  \"chart_type\": \"Bar\",\n  \"name\": \"djb1chvnj6\",\n  \"query\": \"d54efu19h7\",\n  \"title\": \" CHUY\\u1ec0N 1 - K\\u1ebeT QU\\u1ea2 KI\\u1ec2M H\\u00c0NG INLINE - THEO C\\u00d4NG \\u0110O\\u1ea0N\"\n }\n]",
+    "dashboards": "[\n {\n  \"name\": \"f81vv1kkkj\",\n  \"title\": \"Dashboard 1\"\n }\n]",
+    "read_only": false
+  }
+]
