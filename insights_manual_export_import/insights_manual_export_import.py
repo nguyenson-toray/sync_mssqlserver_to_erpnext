@@ -65,8 +65,22 @@ class InsightsManualTransfer:
         """Export all Insights data to JSON files"""
         self.log(f"Starting JSON export from {self.site}")
         
-        frappe.init(site=self.site)
-        frappe.connect()
+        # Change to the bench directory where sites folder exists
+        original_cwd = os.getcwd()
+        bench_path = "/home/sonnt/frappe-bench"  # Adjust this path as needed
+        os.chdir(bench_path)
+        
+        # Debug: Check if we're in the right place
+        self.log(f"Current directory: {os.getcwd()}")
+        self.log(f"Sites directory exists: {os.path.exists('sites')}")
+        self.log(f"Target site exists: {os.path.exists(f'sites/{self.site}')}")
+        
+        try:
+            frappe.init(site=self.site)
+            frappe.connect()
+        except Exception as e:
+            os.chdir(original_cwd)  # Restore original directory
+            raise e
         
         export_summary = {
             "export_time": datetime.now().isoformat(),
@@ -143,6 +157,7 @@ class InsightsManualTransfer:
             return False, None
         finally:
             frappe.destroy()
+            os.chdir(original_cwd)  # Restore original directory
 
     def export_to_sql(self):
         """Export Insights data to SQL files"""

@@ -63,41 +63,103 @@ python3 insights_manual_export_import.py
 
 ### 📤 EXPORT DATA (Trên Server Nguồn)
 
-#### 1. Export Tất Cả Formats (Khuyến nghị)
+#### 1. Export Sử Dụng Bench Console (Khuyến nghị)
 ```bash
 cd ~/frappe-bench
-python3 ~/insights-transfer/insights_manual_export_import.py export erp-sonnt.tiqn.local
+bench --site erp-sonnt.tiqn.local console
 ```
 
-**Output:**
-```
-✅ Export completed successfully!
-📁 Export location: ~/insights-transfer/insights_export_20240724_103015.zip
-📋 Next steps:
-   1. Copy ~/insights-transfer/insights_export_20240724_103015.zip to target server
-   2. Run: python3 script.py import erp.tiqn.local ~/insights-transfer/insights_export_20240724_103015.zip
+Sau đó paste đoạn code sau vào console:
+```python
+import json
+import os
+from datetime import datetime
+
+# Simple export function
+timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+export_dir = f'insights_export_{timestamp}'
+os.makedirs(export_dir, exist_ok=True)
+
+doctypes = ['Insights Settings', 'Insights Data Source', 'Insights Query', 'Insights Chart', 'Insights Workbook', 'Insights Dashboard']
+
+print(f'Starting export from {frappe.local.site}')
+total_records = 0
+
+for doctype in doctypes:
+    try:
+        if not frappe.db.exists('DocType', doctype):
+            print(f'DocType {doctype} not found, skipping')
+            continue
+        
+        records = frappe.get_all(doctype, fields=['name'])
+        print(f'Found {len(records)} {doctype} records')
+        
+        if not records:
+            continue
+        
+        full_records = []
+        for record in records:
+            try:
+                doc = frappe.get_doc(doctype, record.name)
+                doc_dict = doc.as_dict()
+                
+                system_fields = ['creation', 'modified', 'modified_by', 'owner', 'idx']
+                for field in system_fields:
+                    if field in doc_dict:
+                        del doc_dict[field]
+                
+                full_records.append(doc_dict)
+            except Exception as e:
+                print(f'Error exporting {record.name}: {str(e)}')
+        
+        filename = f'{doctype.replace(" ", "_").lower()}.json'
+        filepath = os.path.join(export_dir, filename)
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(full_records, f, indent=2, default=str, ensure_ascii=False)
+        
+        total_records += len(full_records)
+        print(f'Exported {len(full_records)} {doctype} records to {filename}')
+        
+    except Exception as e:
+        print(f'Error processing {doctype}: {str(e)}')
+
+print(f'Export completed! Files saved to: {export_dir}')
+print(f'Total records exported: {total_records}')
 ```
 
-#### 2. Export Chỉ JSON
+**Output mẫu:**
+```
+Starting export from erp-sonnt.tiqn.local
+Found 2 Insights Data Source records
+Exported 2 Insights Data Source records to insights_data_source.json
+Found 1 Insights Workbook records  
+Exported 1 Insights Workbook records to insights_workbook.json
+Export completed! Files saved to: insights_export_20250724_203809
+Total records exported: 3
+```
+
+#### 2. Export Sử Dụng Script (Thay thế)
+**⚠️ Lưu ý: Script cần chạy từ thư mục bench và có thể cần sửa đường dẫn**
+
 ```bash
-python3 insights_manual_export_import.py export erp-sonnt.tiqn.local json
-```
-
-#### 3. Export Chỉ SQL
-```bash
-python3 insights_manual_export_import.py export erp-sonnt.tiqn.local sql
-```
-
-#### 4. Export Chỉ CSV
-```bash
-python3 insights_manual_export_import.py export erp-sonnt.tiqn.local csv
+cd ~/frappe-bench
+env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py export erp-sonnt.tiqn.local
 ```
 
 ### 📂 Cấu Trúc File Export
 
-**ZIP Package (all format):**
+**Console Export (Thư mục JSON):**
 ```
-insights_export_20240724_103015.zip (trong thư mục script)
+~/frappe-bench/sites/insights_export_20250724_203809/
+├── insights_data_source.json        # Data source data (2 records)
+├── insights_workbook.json           # Workbook data (1 record)
+└── (các file khác nếu có data)
+```
+
+**Script Export (ZIP Package - nếu script hoạt động):**
+```
+insights_export_20240724_103015.zip
 ├── export_summary.json              # Tóm tắt export
 ├── insights_dashboard.json          # Dashboard data
 ├── insights_chart.json              # Chart data  
@@ -112,74 +174,171 @@ insights_export_20240724_103015.zip (trong thư mục script)
     └── ...
 ```
 
-**JSON Only:**
+**Ví dụ thực tế từ export gần đây:**
 ```
-~/insights-transfer/
-├── insights_export_20240724_103015/
-│   ├── export_summary.json
-│   ├── insights_dashboard.json
-│   ├── insights_chart.json
-│   └── ...
-└── insights_manual_export_import.py
+sites/insights_export_20250724_203809/
+├── insights_data_source.json        # 2 data sources: Site DB, Query Store
+└── insights_workbook.json           # 1 workbook: "Inline" với 2 queries và 2 charts
 ```
 
 ## 📋 Transfer Files Giữa Servers
 
 ### Phương Pháp 1: SCP (Khuyến nghị)
 ```bash
-# Copy ZIP file
-scp ~/insights-transfer/insights_export_20240724_103015.zip user@target-server:~/insights-transfer/
+# Copy thư mục export từ console
+scp -r ~/frappe-bench/sites/insights_export_20250724_203809/ user@target-server:~/insights-transfer/
 
-# Copy thư mục JSON (nếu export JSON only)
-scp -r ~/insights-transfer/insights_export_20240724_103015/ user@target-server:~/insights-transfer/
+# Copy ZIP file (nếu có từ script)
+scp ~/insights-transfer/insights_export_20240724_103015.zip user@target-server:~/insights-transfer/
 ```
 
 ### Phương Pháp 2: SFTP
 ```bash
 sftp user@target-server
-put ~/insights-transfer/insights_export_20240724_103015.zip ~/insights-transfer/
+# Upload thư mục export
+put -r ~/frappe-bench/sites/insights_export_20250724_203809/ ~/insights-transfer/
 quit
 ```
 
-### Phương Pháp 3: Cloud Storage
+### Phương Pháp 3: ZIP và Transfer
 ```bash
-# Upload lên Google Drive/Dropbox/AWS S3
-# Rồi download từ server đích vào ~/insights-transfer/
+# Tạo ZIP từ export directory
+cd ~/frappe-bench/sites/
+zip -r insights_export_20250724_203809.zip insights_export_20250724_203809/
+
+# Transfer ZIP
+scp insights_export_20250724_203809.zip user@target-server:~/insights-transfer/
+
+# Trên server đích: extract
+cd ~/insights-transfer/
+unzip insights_export_20250724_203809.zip
 ```
 
-### Phương Pháp 4: USB/Physical Media
+### Phương Pháp 4: Cloud Storage
 ```bash
-# Copy lên USB
-cp ~/insights-transfer/insights_export_20240724_103015.zip /media/usb/
-
-# Chuyển USB sang server khác và copy
-cp /media/usb/insights_export_20240724_103015.zip ~/insights-transfer/
+# Upload lên Google Drive/Dropbox/AWS S3
+zip -r insights_export.zip ~/frappe-bench/sites/insights_export_*/
+# Upload bằng web interface hoặc CLI tools
+# Download trên server đích vào ~/insights-transfer/
 ```
 
 ## 📥 IMPORT DATA (Trên Server Đích)
 
-### 1. Import từ ZIP Package
+### 1. Import Sử Dụng Bench Console (Khuyến nghị)
 ```bash
 cd ~/frappe-bench
-python3 ~/insights-transfer/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20240724_103015.zip
+bench --site erp.tiqn.local console
 ```
 
-### 2. Import từ JSON Folder
+Sau đó paste đoạn code sau vào console:
+```python
+import json
+import os
+from datetime import datetime
+
+def import_insights_data(import_dir):
+    """Import insights data from exported JSON files"""
+    
+    print(f'🚀 Starting import to {frappe.local.site}')
+    print(f'📁 Import from: {import_dir}')
+    
+    # Tạo backup trước khi import
+    print('[INFO] Creating backup before import...')
+    frappe.utils.backup.new_backup(ignore_files=True, backup_path_db='/tmp/')
+    
+    # Thứ tự import theo dependency
+    import_order = [
+        "insights_settings.json",
+        "insights_data_source.json", 
+        "insights_query.json",
+        "insights_chart.json",
+        "insights_workbook.json",
+        "insights_dashboard.json"
+    ]
+    
+    total_imported = 0
+    
+    for filename in import_order:
+        filepath = os.path.join(import_dir, filename)
+        
+        if not os.path.exists(filepath):
+            print(f'File {filename} not found, skipping')
+            continue
+            
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                records = json.load(f)
+                
+            if not records:
+                print(f'No records in {filename}')
+                continue
+                
+            doctype = records[0].get('doctype')
+            print(f'[INFO] Importing {len(records)} records to {doctype}')
+            
+            imported_count = 0
+            for record in records:
+                try:
+                    # Xóa các field không cần thiết
+                    if 'doctype' in record:
+                        del record['doctype']
+                    
+                    # Kiểm tra record đã tồn tại chưa
+                    existing = None
+                    try:
+                        existing = frappe.get_doc(doctype, record['name'])
+                        print(f'[INFO] Updated: {record.get("title", record["name"])}')
+                        # Update existing record
+                        for key, value in record.items():
+                            setattr(existing, key, value)
+                        existing.save()
+                    except frappe.DoesNotExistError:
+                        # Tạo record mới
+                        new_doc = frappe.get_doc(record)
+                        new_doc.doctype = doctype
+                        new_doc.insert()
+                        print(f'[INFO] Created: {record.get("title", record["name"])}')
+                    
+                    imported_count += 1
+                    
+                except Exception as e:
+                    print(f'[ERROR] Failed to import {record.get("name", "unknown")}: {str(e)}')
+            
+            total_imported += imported_count
+            print(f'✅ Imported {imported_count}/{len(records)} records from {filename}')
+            
+        except Exception as e:
+            print(f'[ERROR] Failed to process {filename}: {str(e)}')
+    
+    print(f'✅ Import completed! Total records: {total_imported}')
+    print('🔔 Please verify your data in Insights app')
+    
+    return total_imported
+
+# Sử dụng function với đường dẫn export directory
+import_dir = '/home/frappe/frappe-bench/insights-transfer/insights_export_20250724_203809'  # Sửa đường dẫn
+import_insights_data(import_dir)
+```
+
+### 2. Import Sử Dụng Script (Thay thế)
 ```bash
-python3 ~/insights-transfer/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20240724_103015/
+cd ~/frappe-bench
+env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py import erp.tiqn.local ~/insights-transfer/insights_export_20250724_203809/
 ```
 
-**Output Import:**
+**Output Import mẫu:**
 ```
 🚀 Starting import to erp.tiqn.local
-📁 Import from: ~/insights-transfer/insights_export_20240724_103015.zip
-[10:30:15] INFO: Creating backup before import...
-[10:30:16] INFO: Importing 5 records to Insights Dashboard
-[10:30:16] INFO: Created: Sales Dashboard
-[10:30:17] INFO: Updated: Analytics Dashboard
-[10:30:18] INFO: ✅ Imported 5/5 records from insights_dashboard.json
-...
-✅ Import completed successfully!
+📁 Import from: /home/frappe/frappe-bench/insights-transfer/insights_export_20250724_203809
+[INFO] Creating backup before import...
+[INFO] Importing 2 records to Insights Data Source
+[INFO] Created: Site DB
+[INFO] Created: Query Store  
+✅ Imported 2/2 records from insights_data_source.json
+[INFO] Importing 1 records to Insights Workbook
+[INFO] Created: Inline
+✅ Imported 1/1 records from insights_workbook.json
+✅ Import completed! Total records: 3
 🔔 Please verify your data in Insights app
 ```
 
@@ -404,17 +563,26 @@ for d in dashboards:
 - ✅ **Backup site nguồn** để đảm bảo an toàn
 - ✅ **Kiểm tra dung lượng disk** trên cả 2 servers
 - ✅ **Note lại các custom settings** có thể bị mất
+- ✅ **Chạy từ thư mục bench** (`~/frappe-bench`)
 
 ### Trước Khi Import:
-- ✅ **Backup site đích** (script tự động làm)
-- ✅ **Đảm bảo Insights app** đã cài đặt
-- ✅ **Kiểm tra version compatibility** giữa 2 sites
+- ✅ **Backup site đích** (import script tự động làm)
+- ✅ **Đảm bảo Insights app** đã cài đặt và active
+- ✅ **Kiểm tra version compatibility** giữa 2 sites  
+- ✅ **Sửa đường dẫn** trong import script cho đúng
 
 ### Sau Khi Import: 
 - ✅ **Test toàn bộ dashboards** hoạt động
 - ✅ **Kiểm tra data sources** còn valid
 - ✅ **Verify user permissions** trên items mới
 - ✅ **Update queries** nếu cần thiết
+- ✅ **Test charts render** đúng dữ liệu
+
+### Kết Quả Thực Tế (24/07/2025):
+- ✅ **Export thành công**: 3 records (2 Data Sources + 1 Workbook)
+- ✅ **Data Sources**: Site DB (MariaDB), Query Store (SQLite)  
+- ✅ **Workbook**: "Inline" với 2 queries QC và 2 charts tiếng Việt
+- ✅ **Files tạo**: insights_data_source.json, insights_workbook.json
 
 ## 🎯 Best Practices
 
