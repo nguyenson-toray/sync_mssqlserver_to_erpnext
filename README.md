@@ -1,9 +1,15 @@
 # MSSQL to MariaDB Data Synchronization
 
-Tool đồng bộ dữ liệu từ MSSQL Server sang MariaDB với hỗ trợ Full/Incremental sync modes và export cấu trúc bảng.
-cd /home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext && python3 -m venv venv
+A data synchronization tool that transfers data from MSSQL Server to MariaDB with support for Full/Incremental sync modes and table structure export.
+
+## Quick Start
+
+```bash
+cd /home/sonnt/frappe-bench/sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext
+python3 -m venv venv
 venv/bin/pip install -r requirements.txt
 venv/bin/python db_sync.py
+```
 ## Prerequisites
 
 **1. Install Python Dependencies:**
