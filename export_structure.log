@@ -1,0 +1,22 @@
+2025-07-22 21:26:47,610 - INFO - Connected to MariaDB successfully
+2025-07-22 21:26:47,615 - INFO - Found 4 synced tables: ['T50_InspectionData', 'T52_ProductItem', 'T58_InLineData', 'T59_TransInLine']
+2025-07-22 21:26:47,615 - INFO - Getting structure for table: T50_InspectionData
+2025-07-22 21:26:47,626 - INFO - Getting structure for table: T52_ProductItem
+2025-07-22 21:26:47,627 - INFO - Getting structure for table: T58_InLineData
+2025-07-22 21:26:47,645 - INFO - Getting structure for table: T59_TransInLine
+2025-07-22 21:26:47,648 - INFO - Table structures exported to JSON: mariadb_structures_20250722_212647.json
+2025-07-22 21:26:47,648 - INFO - === Export Summary ===
+2025-07-22 21:26:47,648 - INFO - Tables exported: 4
+2025-07-22 21:26:47,648 - INFO - JSON: mariadb_structures_20250722_212647.json
+2025-07-22 21:26:47,649 - INFO - MariaDB connection closed
+2025-07-22 21:37:30,425 - INFO - Connected to MariaDB successfully
+2025-07-22 21:37:30,429 - INFO - Found 4 synced tables: ['T50_InspectionData', 'T52_ProductItem', 'T58_InLineData', 'T59_TransInLine']
+2025-07-22 21:37:30,429 - INFO - Getting structure for table: T50_InspectionData
+2025-07-22 21:37:30,440 - INFO - Getting structure for table: T52_ProductItem
+2025-07-22 21:37:30,441 - INFO - Getting structure for table: T58_InLineData
+2025-07-22 21:37:30,458 - INFO - Getting structure for table: T59_TransInLine
+2025-07-22 21:37:30,461 - INFO - Table structures exported to JSON: mariadb_structures_20250722_213730.json
+2025-07-22 21:37:30,461 - INFO - === Export Summary ===
+2025-07-22 21:37:30,461 - INFO - Tables exported: 4
+2025-07-22 21:37:30,461 - INFO - JSON: mariadb_structures_20250722_213730.json
+2025-07-22 21:37:30,461 - INFO - MariaDB connection closed

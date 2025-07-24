@@ -1,0 +1,1543 @@
+2025-07-19 09:08:19,672 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:08:19,681 - INFO - Connected to MariaDB successfully
+2025-07-19 09:08:19,681 - INFO - Using configured tables: 1 tables
+2025-07-19 09:08:19,681 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:08:19,681 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:08:19,685 - ERROR - MSSQL query failed: tsql: invalid option -- 'c'
+Usage: tsql [-a <appname>] [-S <server> | -H <hostname> -p <port>] -U <username> [-P <password>] [-I <config file>] [-o <options>] [-t delim] [-r delim] [-D database]
+  or:  tsql -C
+  or:  tsql -L -H <hostname>
+If -C is specified just print configuration and exit.
+If -L is specified with a host name (-H) instances found are printed.
+  -a  specify application name
+  -S  specify server entry in freetds.conf to connect
+  -H  specify hostname to connect
+  -p  specify port to connect to
+  -U  specify username to use
+  -P  specify password to use
+  -D  specify database name to use
+  -I  specify old configuration file (called interface) to use
+  -J  specify character set to use
+  -v  verbose mode
+-o options:
+	f	Do not print footer
+	h	Do not print header
+	t	Print time informations
+	v	Print TDS version
+	q	Quiet
+
+	Delimiters can be multi-char strings appropriately escaped for your shell.
+	Default column delimitor is <tab>; default row delimiter is <newline>
+
+2025-07-19 09:08:19,685 - WARNING - No columns found for table T50_InspectionData
+2025-07-19 09:08:19,685 - ERROR - Could not get structure for table T50_InspectionData
+2025-07-19 09:08:19,685 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-19 09:08:19,685 - INFO - === Synchronization Summary ===
+2025-07-19 09:08:19,685 - INFO - Total tables: 1
+2025-07-19 09:08:19,685 - INFO - Successful: 0
+2025-07-19 09:08:19,685 - INFO - Failed: 1
+2025-07-19 09:08:19,685 - INFO - Duration: 0:00:00.013316
+2025-07-19 09:08:19,685 - INFO - MariaDB connection closed
+2025-07-19 09:08:40,586 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:08:40,589 - INFO - Connected to MariaDB successfully
+2025-07-19 09:08:40,589 - INFO - Using configured tables: 1 tables
+2025-07-19 09:08:40,589 - INFO - Processing table 1/1: dbo_T50_InspectionData
+2025-07-19 09:08:40,589 - INFO - Starting sync for table: dbo_T50_InspectionData
+2025-07-19 09:08:40,593 - ERROR - MSSQL query failed: tsql: invalid option -- 'c'
+Usage: tsql [-a <appname>] [-S <server> | -H <hostname> -p <port>] -U <username> [-P <password>] [-I <config file>] [-o <options>] [-t delim] [-r delim] [-D database]
+  or:  tsql -C
+  or:  tsql -L -H <hostname>
+If -C is specified just print configuration and exit.
+If -L is specified with a host name (-H) instances found are printed.
+  -a  specify application name
+  -S  specify server entry in freetds.conf to connect
+  -H  specify hostname to connect
+  -p  specify port to connect to
+  -U  specify username to use
+  -P  specify password to use
+  -D  specify database name to use
+  -I  specify old configuration file (called interface) to use
+  -J  specify character set to use
+  -v  verbose mode
+-o options:
+	f	Do not print footer
+	h	Do not print header
+	t	Print time informations
+	v	Print TDS version
+	q	Quiet
+
+	Delimiters can be multi-char strings appropriately escaped for your shell.
+	Default column delimitor is <tab>; default row delimiter is <newline>
+
+2025-07-19 09:08:40,593 - WARNING - No columns found for table dbo_T50_InspectionData
+2025-07-19 09:08:40,593 - ERROR - Could not get structure for table dbo_T50_InspectionData
+2025-07-19 09:08:40,593 - ERROR - Failed to sync table: dbo_T50_InspectionData
+2025-07-19 09:08:40,593 - INFO - === Synchronization Summary ===
+2025-07-19 09:08:40,593 - INFO - Total tables: 1
+2025-07-19 09:08:40,593 - INFO - Successful: 0
+2025-07-19 09:08:40,593 - INFO - Failed: 1
+2025-07-19 09:08:40,593 - INFO - Duration: 0:00:00.007109
+2025-07-19 09:08:40,593 - INFO - MariaDB connection closed
+2025-07-19 09:09:04,947 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:09:04,950 - INFO - Connected to MariaDB successfully
+2025-07-19 09:09:04,950 - INFO - Using configured tables: 1 tables
+2025-07-19 09:09:04,950 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:09:04,950 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:09:04,953 - ERROR - MSSQL query failed: tsql: invalid option -- 'c'
+Usage: tsql [-a <appname>] [-S <server> | -H <hostname> -p <port>] -U <username> [-P <password>] [-I <config file>] [-o <options>] [-t delim] [-r delim] [-D database]
+  or:  tsql -C
+  or:  tsql -L -H <hostname>
+If -C is specified just print configuration and exit.
+If -L is specified with a host name (-H) instances found are printed.
+  -a  specify application name
+  -S  specify server entry in freetds.conf to connect
+  -H  specify hostname to connect
+  -p  specify port to connect to
+  -U  specify username to use
+  -P  specify password to use
+  -D  specify database name to use
+  -I  specify old configuration file (called interface) to use
+  -J  specify character set to use
+  -v  verbose mode
+-o options:
+	f	Do not print footer
+	h	Do not print header
+	t	Print time informations
+	v	Print TDS version
+	q	Quiet
+
+	Delimiters can be multi-char strings appropriately escaped for your shell.
+	Default column delimitor is <tab>; default row delimiter is <newline>
+
+2025-07-19 09:09:04,953 - WARNING - No columns found for table T50_InspectionData
+2025-07-19 09:09:04,953 - ERROR - Could not get structure for table T50_InspectionData
+2025-07-19 09:09:04,953 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-19 09:09:04,953 - INFO - === Synchronization Summary ===
+2025-07-19 09:09:04,953 - INFO - Total tables: 1
+2025-07-19 09:09:04,953 - INFO - Successful: 0
+2025-07-19 09:09:04,953 - INFO - Failed: 1
+2025-07-19 09:09:04,953 - INFO - Duration: 0:00:00.006322
+2025-07-19 09:09:04,953 - INFO - MariaDB connection closed
+2025-07-19 09:13:35,574 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:13:35,577 - INFO - Connected to MariaDB successfully
+2025-07-19 09:13:35,577 - INFO - Using configured tables: 1 tables
+2025-07-19 09:13:35,577 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:13:35,577 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:13:35,612 - ERROR - Failed to create table T50_InspectionData: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1), `(72` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=u...' at line 2
+2025-07-19 09:13:35,612 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-19 09:13:35,612 - INFO - === Synchronization Summary ===
+2025-07-19 09:13:35,612 - INFO - Total tables: 1
+2025-07-19 09:13:35,612 - INFO - Successful: 0
+2025-07-19 09:13:35,612 - INFO - Failed: 1
+2025-07-19 09:13:35,612 - INFO - Duration: 0:00:00.037502
+2025-07-19 09:13:35,612 - INFO - MariaDB connection closed
+2025-07-19 09:20:57,085 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:20:57,088 - INFO - Connected to MariaDB successfully
+2025-07-19 09:20:57,088 - INFO - Using configured tables: 1 tables
+2025-07-19 09:20:57,089 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:20:57,089 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:20:57,101 - INFO - Raw column results for T50_InspectionData: [['locale', 'charset', 'is', '"UTF-8"'], ['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)'], ['(72', 'rows', 'affected)']]
+2025-07-19 09:20:57,101 - WARNING - Skipping invalid column name: '2nd' -> '2nd'
+2025-07-19 09:20:57,101 - INFO - Found 73 columns for table T50_InspectionData
+2025-07-19 09:20:57,103 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `locale` TEXT, `ID` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` VARCHAR(-1), `(72` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:20:57,103 - ERROR - Failed to create table T50_InspectionData: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1), `(72` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=u...' at line 2
+2025-07-19 09:20:57,103 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-19 09:20:57,103 - INFO - === Synchronization Summary ===
+2025-07-19 09:20:57,103 - INFO - Total tables: 1
+2025-07-19 09:20:57,103 - INFO - Successful: 0
+2025-07-19 09:20:57,103 - INFO - Failed: 1
+2025-07-19 09:20:57,103 - INFO - Duration: 0:00:00.017849
+2025-07-19 09:20:57,104 - INFO - MariaDB connection closed
+2025-07-19 09:23:43,782 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:23:43,784 - INFO - Connected to MariaDB successfully
+2025-07-19 09:23:43,785 - INFO - Using configured tables: 1 tables
+2025-07-19 09:23:43,785 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:23:43,785 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:23:43,798 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:23:43,798 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:23:43,798 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:23:43,800 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:23:43,802 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:23:43,821 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:23:43,821 - INFO - === Synchronization Summary ===
+2025-07-19 09:23:43,821 - INFO - Total tables: 1
+2025-07-19 09:23:43,821 - INFO - Successful: 1
+2025-07-19 09:23:43,821 - INFO - Failed: 0
+2025-07-19 09:23:43,821 - INFO - Duration: 0:00:00.039311
+2025-07-19 09:23:43,821 - INFO - MariaDB connection closed
+2025-07-19 09:25:58,432 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:25:58,435 - INFO - Connected to MariaDB successfully
+2025-07-19 09:25:58,435 - INFO - Using configured tables: 1 tables
+2025-07-19 09:25:58,435 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:25:58,435 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:25:58,448 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:25:58,448 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:25:58,449 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:25:58,452 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:25:58,454 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:25:58,473 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:25:58,474 - INFO - === Synchronization Summary ===
+2025-07-19 09:25:58,474 - INFO - Total tables: 1
+2025-07-19 09:25:58,474 - INFO - Successful: 1
+2025-07-19 09:25:58,474 - INFO - Failed: 0
+2025-07-19 09:25:58,474 - INFO - Duration: 0:00:00.041331
+2025-07-19 09:25:58,474 - INFO - MariaDB connection closed
+2025-07-19 09:26:42,013 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:26:42,015 - INFO - Connected to MariaDB successfully
+2025-07-19 09:26:42,015 - INFO - Using configured tables: 1 tables
+2025-07-19 09:26:42,015 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:26:42,015 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:26:42,029 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:26:42,029 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:26:42,029 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:26:42,031 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:26:42,033 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:26:42,052 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:26:42,053 - INFO - === Synchronization Summary ===
+2025-07-19 09:26:42,053 - INFO - Total tables: 1
+2025-07-19 09:26:42,053 - INFO - Successful: 1
+2025-07-19 09:26:42,053 - INFO - Failed: 0
+2025-07-19 09:26:42,053 - INFO - Duration: 0:00:00.040004
+2025-07-19 09:26:42,053 - INFO - MariaDB connection closed
+2025-07-19 09:27:14,949 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:27:14,952 - INFO - Connected to MariaDB successfully
+2025-07-19 09:27:14,952 - INFO - Using configured tables: 1 tables
+2025-07-19 09:27:14,952 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:27:14,952 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:27:14,965 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:27:14,965 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:27:14,965 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:27:14,967 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:27:14,970 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:27:14,988 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:27:14,988 - INFO - === Synchronization Summary ===
+2025-07-19 09:27:14,988 - INFO - Total tables: 1
+2025-07-19 09:27:14,988 - INFO - Successful: 1
+2025-07-19 09:27:14,988 - INFO - Failed: 0
+2025-07-19 09:27:14,988 - INFO - Duration: 0:00:00.039198
+2025-07-19 09:27:14,988 - INFO - MariaDB connection closed
+2025-07-19 09:31:16,831 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:31:16,834 - INFO - Connected to MariaDB successfully
+2025-07-19 09:31:16,834 - INFO - Using configured tables: 1 tables
+2025-07-19 09:31:16,834 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:31:16,834 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:31:16,847 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:31:16,847 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:31:16,847 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:31:16,849 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:31:16,851 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:31:16,867 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:31:16,867 - INFO - === Synchronization Summary ===
+2025-07-19 09:31:16,867 - INFO - Total tables: 1
+2025-07-19 09:31:16,867 - INFO - Successful: 1
+2025-07-19 09:31:16,867 - INFO - Failed: 0
+2025-07-19 09:31:16,867 - INFO - Duration: 0:00:00.036193
+2025-07-19 09:31:16,867 - INFO - MariaDB connection closed
+2025-07-19 09:31:22,963 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:31:22,965 - INFO - Connected to MariaDB successfully
+2025-07-19 09:31:22,966 - INFO - Using configured tables: 1 tables
+2025-07-19 09:31:22,966 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:31:22,966 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:31:22,978 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:31:22,978 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:31:22,978 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:31:22,980 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:31:22,982 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:31:22,997 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:31:22,997 - INFO - === Synchronization Summary ===
+2025-07-19 09:31:22,997 - INFO - Total tables: 1
+2025-07-19 09:31:22,997 - INFO - Successful: 1
+2025-07-19 09:31:22,997 - INFO - Failed: 0
+2025-07-19 09:31:22,997 - INFO - Duration: 0:00:00.034078
+2025-07-19 09:31:22,997 - INFO - MariaDB connection closed
+2025-07-19 09:34:00,539 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:34:00,542 - INFO - Connected to MariaDB successfully
+2025-07-19 09:34:00,542 - INFO - Using configured tables: 1 tables
+2025-07-19 09:34:00,542 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:34:00,542 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:34:00,556 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:34:00,556 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:34:00,556 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:34:00,558 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:34:00,561 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:34:00,575 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:34:00,575 - INFO - === Synchronization Summary ===
+2025-07-19 09:34:00,575 - INFO - Total tables: 1
+2025-07-19 09:34:00,575 - INFO - Successful: 1
+2025-07-19 09:34:00,575 - INFO - Failed: 0
+2025-07-19 09:34:00,575 - INFO - Duration: 0:00:00.035777
+2025-07-19 09:34:00,575 - INFO - MariaDB connection closed
+2025-07-19 09:34:04,209 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:34:04,212 - INFO - Connected to MariaDB successfully
+2025-07-19 09:34:04,212 - INFO - Using configured tables: 1 tables
+2025-07-19 09:34:04,212 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:34:04,212 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:34:04,224 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:34:04,225 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:34:04,225 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:34:04,227 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:34:04,229 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:34:04,244 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:34:04,245 - INFO - === Synchronization Summary ===
+2025-07-19 09:34:04,245 - INFO - Total tables: 1
+2025-07-19 09:34:04,245 - INFO - Successful: 1
+2025-07-19 09:34:04,245 - INFO - Failed: 0
+2025-07-19 09:34:04,245 - INFO - Duration: 0:00:00.035257
+2025-07-19 09:34:04,245 - INFO - MariaDB connection closed
+2025-07-19 09:34:49,782 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:34:49,785 - INFO - Connected to MariaDB successfully
+2025-07-19 09:34:49,785 - INFO - Using configured tables: 1 tables
+2025-07-19 09:34:49,785 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:34:49,785 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:34:49,798 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:34:49,799 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:34:49,799 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:34:49,801 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:34:49,803 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:34:49,817 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:34:49,818 - INFO - === Synchronization Summary ===
+2025-07-19 09:34:49,818 - INFO - Total tables: 1
+2025-07-19 09:34:49,818 - INFO - Successful: 1
+2025-07-19 09:34:49,818 - INFO - Failed: 0
+2025-07-19 09:34:49,818 - INFO - Duration: 0:00:00.035416
+2025-07-19 09:34:49,818 - INFO - MariaDB connection closed
+2025-07-19 09:35:58,960 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:35:58,962 - INFO - Connected to MariaDB successfully
+2025-07-19 09:35:58,963 - INFO - Using configured tables: 1 tables
+2025-07-19 09:35:58,963 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:35:58,963 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:35:58,976 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:35:58,976 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:35:58,976 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:35:58,978 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:35:58,980 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:35:58,995 - INFO - Table T50_InspectionData: No data to sync
+2025-07-19 09:35:58,995 - INFO - === Synchronization Summary ===
+2025-07-19 09:35:58,995 - INFO - Total tables: 1
+2025-07-19 09:35:58,995 - INFO - Successful: 1
+2025-07-19 09:35:58,995 - INFO - Failed: 0
+2025-07-19 09:35:58,995 - INFO - Duration: 0:00:00.035338
+2025-07-19 09:35:58,995 - INFO - MariaDB connection closed
+2025-07-19 09:37:47,654 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:37:47,657 - INFO - Connected to MariaDB successfully
+2025-07-19 09:37:47,657 - INFO - Using configured tables: 1 tables
+2025-07-19 09:37:47,657 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:37:47,657 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:37:47,671 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:37:47,671 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:37:47,671 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:37:47,673 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:37:47,675 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:37:47,689 - INFO - Table T50_InspectionData: Row count returned 0, but attempting sync anyway...
+2025-07-19 09:37:47,698 - INFO - No more data at offset 0
+2025-07-19 09:37:47,698 - INFO - Table T50_InspectionData: Sync completed successfully (0 rows)
+2025-07-19 09:37:47,698 - INFO - === Synchronization Summary ===
+2025-07-19 09:37:47,698 - INFO - Total tables: 1
+2025-07-19 09:37:47,698 - INFO - Successful: 1
+2025-07-19 09:37:47,698 - INFO - Failed: 0
+2025-07-19 09:37:47,698 - INFO - Duration: 0:00:00.044232
+2025-07-19 09:37:47,698 - INFO - MariaDB connection closed
+2025-07-19 09:51:05,493 - INFO - === Starting Database Synchronization ===
+2025-07-19 09:51:05,496 - INFO - Connected to MariaDB successfully
+2025-07-19 09:51:05,496 - INFO - Using configured tables: 1 tables
+2025-07-19 09:51:05,496 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-19 09:51:05,496 - INFO - Starting sync for table: T50_InspectionData
+2025-07-19 09:51:05,509 - INFO - Raw column results for T50_InspectionData: [['ID', 'int(10,0)'], ['2nd', 'int(10,0)'], ['X01', 'int(10,0)'], ['X02', 'datetime'], ['X03', 'int(10,0)'], ['X04', 'nvarchar(255)'], ['X05', 'nvarchar(255)'], ['X06', 'int(10,0)'], ['X07', 'int(10,0)'], ['X08', 'int(10,0)'], ['X09', 'int(10,0)'], ['X10', 'int(10,0)'], ['A01', 'int(10,0)'], ['A02', 'int(10,0)'], ['B01', 'int(10,0)'], ['B02', 'int(10,0)'], ['B03', 'int(10,0)'], ['C01', 'int(10,0)'], ['C02', 'int(10,0)'], ['D01', 'int(10,0)'], ['D02', 'int(10,0)'], ['D03', 'int(10,0)'], ['D04', 'int(10,0)'], ['D05', 'int(10,0)'], ['D06', 'int(10,0)'], ['D07', 'int(10,0)'], ['D08', 'int(10,0)'], ['E01', 'int(10,0)'], ['E02', 'int(10,0)'], ['E03', 'int(10,0)'], ['E04', 'int(10,0)'], ['E05', 'int(10,0)'], ['E06', 'int(10,0)'], ['E07', 'int(10,0)'], ['E08', 'int(10,0)'], ['E09', 'int(10,0)'], ['E10', 'int(10,0)'], ['E11', 'int(10,0)'], ['E12', 'int(10,0)'], ['E13', 'int(10,0)'], ['E14', 'int(10,0)'], ['E15', 'int(10,0)'], ['E16', 'int(10,0)'], ['E17', 'int(10,0)'], ['E18', 'int(10,0)'], ['E19', 'int(10,0)'], ['E20', 'int(10,0)'], ['E21', 'int(10,0)'], ['E22', 'int(10,0)'], ['E23', 'int(10,0)'], ['E24', 'int(10,0)'], ['F01', 'int(10,0)'], ['F02', 'int(10,0)'], ['F03', 'int(10,0)'], ['F04', 'int(10,0)'], ['F05', 'int(10,0)'], ['F06', 'int(10,0)'], ['F07', 'int(10,0)'], ['F08', 'int(10,0)'], ['F09', 'int(10,0)'], ['F10', 'int(10,0)'], ['F11', 'int(10,0)'], ['F12', 'int(10,0)'], ['F13', 'int(10,0)'], ['F14', 'int(10,0)'], ['F15', 'int(10,0)'], ['G01', 'int(10,0)'], ['G02', 'int(10,0)'], ['G03', 'int(10,0)'], ['G04', 'int(10,0)'], ['H', 'int(10,0)'], ['XC', 'nvarchar(-1)']]
+2025-07-19 09:51:05,509 - INFO - Renamed column '2nd' to 'inspection_type'
+2025-07-19 09:51:05,510 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-19 09:51:05,512 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-19 09:51:05,514 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-19 09:51:05,528 - INFO - Table T50_InspectionData: Row count returned 0, but attempting sync anyway...
+2025-07-19 09:51:05,528 - INFO - Executing query: SELECT TOP 1000 ID, 2nd, X01, X02, X03, X04, X05, X06, X07, X08, X09, X10, A01, A02, B01, B02, B03, C01, C02, D01, D02, D03, D04, D05, D06, D07, D08, E01, E02, E03, E04, E05, E06, E07, E08, E09, E10, E11, E12, E13, E14, E15, E16, E17, E18, E19, E20, E21, E22, E23, E24, F01, F02, F03, F04, F05, F06, F07, F08, F09, F10, F11, F12, F13, F14, F15, G01, G02, G03, G04, H, XC FROM T50_InspectionData
+2025-07-19 09:51:05,554 - ERROR - Failed to sync table T50_InspectionData: Failed executing the operation; Not enough parameters for the SQL statement
+2025-07-19 09:51:05,554 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-19 09:51:05,554 - INFO - === Synchronization Summary ===
+2025-07-19 09:51:05,554 - INFO - Total tables: 1
+2025-07-19 09:51:05,554 - INFO - Successful: 0
+2025-07-19 09:51:05,554 - INFO - Failed: 1
+2025-07-19 09:51:05,554 - INFO - Duration: 0:00:00.061209
+2025-07-19 09:51:05,554 - INFO - MariaDB connection closed
+2025-07-22 19:31:15,408 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:31:15,410 - INFO - Connected to MariaDB successfully
+2025-07-22 19:31:15,410 - INFO - Using configured tables: 1 tables
+2025-07-22 19:31:15,410 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:31:15,410 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:31:15,424 - INFO - Found 1 columns for table T50_InspectionData
+2025-07-22 19:31:15,430 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `X02` DATETIME
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:31:15,432 - INFO - Created table T50_InspectionData with 1 columns
+2025-07-22 19:31:15,441 - INFO - Table T50_InspectionData: Syncing unknown rows
+2025-07-22 19:31:15,449 - INFO - Table T50_InspectionData: Sync completed (0 rows)
+2025-07-22 19:31:15,449 - INFO - === Synchronization Summary ===
+2025-07-22 19:31:15,450 - INFO - Total tables: 1
+2025-07-22 19:31:15,450 - INFO - Successful: 1
+2025-07-22 19:31:15,450 - INFO - Failed: 0
+2025-07-22 19:31:15,450 - INFO - Duration: 0:00:00.041770
+2025-07-22 19:31:15,450 - INFO - MariaDB connection closed
+2025-07-22 19:33:08,315 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:33:08,317 - INFO - Connected to MariaDB successfully
+2025-07-22 19:33:08,317 - INFO - Using configured tables: 1 tables
+2025-07-22 19:33:08,317 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:33:08,318 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:33:08,331 - INFO - Found 1 columns for table T50_InspectionData
+2025-07-22 19:33:08,333 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `X02` DATETIME
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:33:08,335 - INFO - Created table T50_InspectionData with 1 columns
+2025-07-22 19:33:08,352 - INFO - Table T50_InspectionData: Syncing unknown rows
+2025-07-22 19:33:08,970 - INFO - Table T50_InspectionData: Sync completed (0 rows)
+2025-07-22 19:33:08,971 - INFO - === Synchronization Summary ===
+2025-07-22 19:33:08,971 - INFO - Total tables: 1
+2025-07-22 19:33:08,971 - INFO - Successful: 1
+2025-07-22 19:33:08,971 - INFO - Failed: 0
+2025-07-22 19:33:08,971 - INFO - Duration: 0:00:00.655890
+2025-07-22 19:33:08,971 - INFO - MariaDB connection closed
+2025-07-22 19:36:41,235 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:36:41,238 - INFO - Connected to MariaDB successfully
+2025-07-22 19:36:41,238 - INFO - Using configured tables: 1 tables
+2025-07-22 19:36:41,238 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:36:41,238 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:36:41,252 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:36:41,254 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:36:41,256 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-22 19:36:41,273 - INFO - Table T50_InspectionData: Syncing unknown rows
+2025-07-22 19:36:41,329 - ERROR - Failed to sync table T50_InspectionData: 1292 (22007): Incorrect datetime value: 'Apr  1 2025 12:00AM' for column `_4655208665010c57`.`T50_InspectionData`.`X02` at row 1
+2025-07-22 19:36:41,329 - ERROR - Failed to sync table: T50_InspectionData
+2025-07-22 19:36:41,329 - INFO - === Synchronization Summary ===
+2025-07-22 19:36:41,329 - INFO - Total tables: 1
+2025-07-22 19:36:41,329 - INFO - Successful: 0
+2025-07-22 19:36:41,329 - INFO - Failed: 1
+2025-07-22 19:36:41,329 - INFO - Duration: 0:00:00.093871
+2025-07-22 19:36:41,330 - INFO - MariaDB connection closed
+2025-07-22 19:37:55,501 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:37:55,504 - INFO - Connected to MariaDB successfully
+2025-07-22 19:37:55,504 - INFO - Using configured tables: 1 tables
+2025-07-22 19:37:55,505 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:37:55,505 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:37:55,518 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:37:55,520 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:37:55,523 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-22 19:37:55,540 - INFO - Table T50_InspectionData: Syncing unknown rows
+2025-07-22 19:37:55,667 - INFO - Table T50_InspectionData: 83 rows synced
+2025-07-22 19:37:55,886 - INFO - Table T50_InspectionData: 151 rows synced
+2025-07-22 19:37:56,105 - INFO - Table T50_InspectionData: 219 rows synced
+2025-07-22 19:37:56,331 - INFO - Table T50_InspectionData: 320 rows synced
+2025-07-22 19:37:56,562 - INFO - Table T50_InspectionData: 427 rows synced
+2025-07-22 19:37:56,723 - INFO - Table T50_InspectionData: 530 rows synced
+2025-07-22 19:37:56,723 - INFO - Table T50_InspectionData: Sync completed (530 rows)
+2025-07-22 19:37:56,723 - INFO - === Synchronization Summary ===
+2025-07-22 19:37:56,723 - INFO - Total tables: 1
+2025-07-22 19:37:56,723 - INFO - Successful: 1
+2025-07-22 19:37:56,723 - INFO - Failed: 0
+2025-07-22 19:37:56,723 - INFO - Duration: 0:00:01.221833
+2025-07-22 19:37:56,724 - INFO - MariaDB connection closed
+2025-07-22 19:38:20,784 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:38:20,787 - INFO - Connected to MariaDB successfully
+2025-07-22 19:38:20,787 - INFO - Using configured tables: 1 tables
+2025-07-22 19:38:20,787 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:38:20,787 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:38:20,800 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:38:20,802 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `X02` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `XC` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:38:20,804 - INFO - Created table T50_InspectionData with 72 columns
+2025-07-22 19:38:20,821 - INFO - Table T50_InspectionData: Syncing unknown rows
+2025-07-22 19:38:20,942 - INFO - Table T50_InspectionData: 83 rows synced
+2025-07-22 19:38:21,156 - INFO - Table T50_InspectionData: 151 rows synced
+2025-07-22 19:38:21,372 - INFO - Table T50_InspectionData: 219 rows synced
+2025-07-22 19:38:21,591 - INFO - Table T50_InspectionData: 320 rows synced
+2025-07-22 19:38:21,822 - INFO - Table T50_InspectionData: 427 rows synced
+2025-07-22 19:38:21,981 - INFO - Table T50_InspectionData: 530 rows synced
+2025-07-22 19:38:21,981 - INFO - Table T50_InspectionData: Sync completed (530 rows)
+2025-07-22 19:38:21,981 - INFO - === Synchronization Summary ===
+2025-07-22 19:38:21,981 - INFO - Total tables: 1
+2025-07-22 19:38:21,981 - INFO - Successful: 1
+2025-07-22 19:38:21,981 - INFO - Failed: 0
+2025-07-22 19:38:21,981 - INFO - Duration: 0:00:01.196555
+2025-07-22 19:38:21,981 - INFO - MariaDB connection closed
+2025-07-22 19:44:15,625 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:44:15,628 - INFO - Connected to MariaDB successfully
+2025-07-22 19:44:15,628 - INFO - Using configured tables: 1 tables
+2025-07-22 19:44:15,628 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:44:15,628 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:44:15,642 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:44:15,644 - INFO - Table T50_InspectionData exists, using incremental sync
+2025-07-22 19:44:15,661 - INFO - Table T50_InspectionData: Syncing unknown rows (incremental)
+2025-07-22 19:44:15,784 - INFO - Table T50_InspectionData: 83 rows synced
+2025-07-22 19:44:16,002 - INFO - Table T50_InspectionData: 151 rows synced
+2025-07-22 19:44:16,222 - INFO - Table T50_InspectionData: 219 rows synced
+2025-07-22 19:44:16,448 - INFO - Table T50_InspectionData: 320 rows synced
+2025-07-22 19:44:16,682 - INFO - Table T50_InspectionData: 427 rows synced
+2025-07-22 19:44:16,843 - INFO - Table T50_InspectionData: 530 rows synced
+2025-07-22 19:44:16,864 - INFO - Updated last sync timestamp for T50_InspectionData: Jul
+2025-07-22 19:44:16,864 - INFO - Table T50_InspectionData: Sync completed (530 rows)
+2025-07-22 19:44:16,865 - INFO - === Synchronization Summary ===
+2025-07-22 19:44:16,865 - INFO - Total tables: 1
+2025-07-22 19:44:16,865 - INFO - Successful: 1
+2025-07-22 19:44:16,865 - INFO - Failed: 0
+2025-07-22 19:44:16,865 - INFO - Duration: 0:00:01.239446
+2025-07-22 19:44:16,865 - INFO - MariaDB connection closed
+2025-07-22 19:44:33,738 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:44:33,742 - INFO - Connected to MariaDB successfully
+2025-07-22 19:44:33,742 - INFO - Using configured tables: 1 tables
+2025-07-22 19:44:33,742 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:44:33,742 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:44:33,756 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:44:33,757 - INFO - Table T50_InspectionData exists, using incremental sync
+2025-07-22 19:44:33,771 - INFO - Table T50_InspectionData: Syncing unknown rows (incremental)
+2025-07-22 19:44:33,783 - INFO - Table T50_InspectionData: Sync completed (0 rows)
+2025-07-22 19:44:33,783 - INFO - === Synchronization Summary ===
+2025-07-22 19:44:33,783 - INFO - Total tables: 1
+2025-07-22 19:44:33,783 - INFO - Successful: 1
+2025-07-22 19:44:33,783 - INFO - Failed: 0
+2025-07-22 19:44:33,783 - INFO - Duration: 0:00:00.045013
+2025-07-22 19:44:33,783 - INFO - MariaDB connection closed
+2025-07-22 19:44:47,503 - INFO - Cleared all sync timestamps - next sync will be full for all tables
+2025-07-22 19:44:47,504 - INFO - === Starting Database Synchronization ===
+2025-07-22 19:44:47,507 - INFO - Connected to MariaDB successfully
+2025-07-22 19:44:47,507 - INFO - Using configured tables: 1 tables
+2025-07-22 19:44:47,507 - INFO - Processing table 1/1: T50_InspectionData
+2025-07-22 19:44:47,507 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:44:47,520 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:44:47,522 - INFO - Table T50_InspectionData exists, using incremental sync
+2025-07-22 19:44:47,539 - INFO - Table T50_InspectionData: Syncing unknown rows (incremental)
+2025-07-22 19:44:47,659 - INFO - Table T50_InspectionData: 83 rows synced
+2025-07-22 19:44:47,878 - INFO - Table T50_InspectionData: 151 rows synced
+2025-07-22 19:44:48,094 - INFO - Table T50_InspectionData: 219 rows synced
+2025-07-22 19:44:48,318 - INFO - Table T50_InspectionData: 320 rows synced
+2025-07-22 19:44:48,544 - INFO - Table T50_InspectionData: 427 rows synced
+2025-07-22 19:44:48,703 - INFO - Table T50_InspectionData: 530 rows synced
+2025-07-22 19:44:48,722 - INFO - Updated last sync timestamp for T50_InspectionData: Jul
+2025-07-22 19:44:48,723 - INFO - Table T50_InspectionData: Sync completed (530 rows)
+2025-07-22 19:44:48,723 - INFO - === Synchronization Summary ===
+2025-07-22 19:44:48,723 - INFO - Total tables: 1
+2025-07-22 19:44:48,723 - INFO - Successful: 1
+2025-07-22 19:44:48,723 - INFO - Failed: 0
+2025-07-22 19:44:48,723 - INFO - Duration: 0:00:01.219330
+2025-07-22 19:44:48,723 - INFO - MariaDB connection closed
+2025-07-22 19:50:45,689 - INFO - Connected to MariaDB successfully
+2025-07-22 19:50:45,690 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 19:50:45,704 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 19:50:45,706 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `X01` INT, `inspection_date` DATETIME, `X03` INT, `X04` VARCHAR(255), `X05` VARCHAR(255), `X06` INT, `X07` INT, `X08` INT, `X09` INT, `X10` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 19:50:45,709 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-22 19:50:45,725 - INFO - Table T50_InspectionData: Syncing unknown rows (full)
+2025-07-22 19:50:45,865 - INFO - Table T50_InspectionData: 294 rows synced
+2025-07-22 19:50:46,101 - INFO - Table T50_InspectionData: 586 rows synced
+2025-07-22 19:50:46,343 - INFO - Table T50_InspectionData: 905 rows synced
+2025-07-22 19:50:46,577 - INFO - Table T50_InspectionData: 1141 rows synced
+2025-07-22 19:50:46,817 - INFO - Table T50_InspectionData: 1372 rows synced
+2025-07-22 19:50:47,052 - INFO - Table T50_InspectionData: 1633 rows synced
+2025-07-22 19:50:47,283 - INFO - Table T50_InspectionData: 1794 rows synced
+2025-07-22 19:50:47,520 - INFO - Table T50_InspectionData: 2016 rows synced
+2025-07-22 19:50:47,759 - INFO - Table T50_InspectionData: 2268 rows synced
+2025-07-22 19:50:48,001 - INFO - Table T50_InspectionData: 2494 rows synced
+2025-07-22 19:50:48,247 - INFO - Table T50_InspectionData: 2793 rows synced
+2025-07-22 19:50:48,497 - INFO - Table T50_InspectionData: 3085 rows synced
+2025-07-22 19:50:48,745 - INFO - Table T50_InspectionData: 3340 rows synced
+2025-07-22 19:50:48,993 - INFO - Table T50_InspectionData: 3590 rows synced
+2025-07-22 19:50:49,242 - INFO - Table T50_InspectionData: 3857 rows synced
+2025-07-22 19:50:49,478 - INFO - Table T50_InspectionData: 3935 rows synced
+2025-07-22 19:50:49,726 - INFO - Table T50_InspectionData: 4092 rows synced
+2025-07-22 19:50:49,966 - INFO - Table T50_InspectionData: 4214 rows synced
+2025-07-22 19:50:50,209 - INFO - Table T50_InspectionData: 4330 rows synced
+2025-07-22 19:50:50,392 - INFO - Table T50_InspectionData: 4335 rows synced
+2025-07-22 19:50:51,108 - INFO - Table T50_InspectionData: 4348 rows synced
+2025-07-22 19:50:51,324 - INFO - Table T50_InspectionData: 4395 rows synced
+2025-07-22 19:50:51,537 - INFO - Table T50_InspectionData: 4428 rows synced
+2025-07-22 19:50:51,751 - INFO - Table T50_InspectionData: 4462 rows synced
+2025-07-22 19:50:51,955 - INFO - Table T50_InspectionData: 4484 rows synced
+2025-07-22 19:50:52,202 - INFO - Table T50_InspectionData: 4571 rows synced
+2025-07-22 19:50:52,459 - INFO - Table T50_InspectionData: 4662 rows synced
+2025-07-22 19:50:52,718 - INFO - Table T50_InspectionData: 4769 rows synced
+2025-07-22 19:50:52,977 - INFO - Table T50_InspectionData: 4869 rows synced
+2025-07-22 19:50:53,241 - INFO - Table T50_InspectionData: 4967 rows synced
+2025-07-22 19:50:53,502 - INFO - Table T50_InspectionData: 5075 rows synced
+2025-07-22 19:50:53,762 - INFO - Table T50_InspectionData: 5160 rows synced
+2025-07-22 19:50:54,022 - INFO - Table T50_InspectionData: 5207 rows synced
+2025-07-22 19:50:54,283 - INFO - Table T50_InspectionData: 5271 rows synced
+2025-07-22 19:50:54,549 - INFO - Table T50_InspectionData: 5358 rows synced
+2025-07-22 19:50:54,812 - INFO - Table T50_InspectionData: 5409 rows synced
+2025-07-22 19:50:55,081 - INFO - Table T50_InspectionData: 5484 rows synced
+2025-07-22 19:50:55,349 - INFO - Table T50_InspectionData: 5553 rows synced
+2025-07-22 19:50:55,619 - INFO - Table T50_InspectionData: 5631 rows synced
+2025-07-22 19:50:55,892 - INFO - Table T50_InspectionData: 5698 rows synced
+2025-07-22 19:50:56,164 - INFO - Table T50_InspectionData: 5771 rows synced
+2025-07-22 19:50:56,445 - INFO - Table T50_InspectionData: 5879 rows synced
+2025-07-22 19:50:56,730 - INFO - Table T50_InspectionData: 6002 rows synced
+2025-07-22 19:50:56,928 - INFO - Table T50_InspectionData: 6069 rows synced
+2025-07-22 19:50:56,928 - INFO - Table T50_InspectionData: Sync completed (6069 rows)
+2025-07-22 20:36:22,179 - INFO - === Starting Database Synchronization ===
+2025-07-22 20:36:22,182 - INFO - Connected to MariaDB successfully
+2025-07-22 20:36:22,182 - INFO - Using configured tables: 4 tables
+2025-07-22 20:36:22,182 - INFO - Processing table 1/4: T50_InspectionData
+2025-07-22 20:36:22,182 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 20:36:22,196 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 20:36:22,198 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `line` INT, `date` DATETIME, `stye_no` INT, `color` VARCHAR(255), `size` VARCHAR(255), `qty` INT, `qty_ok` INT, `qty_recheck` INT, `qty_recheck_ok` INT, `qty_c` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:36:22,201 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-22 20:36:22,215 - INFO - Table T50_InspectionData: Syncing unknown rows (full)
+2025-07-22 20:36:22,350 - INFO - Table T50_InspectionData: 294 rows synced
+2025-07-22 20:36:22,585 - INFO - Table T50_InspectionData: 586 rows synced
+2025-07-22 20:36:22,823 - INFO - Table T50_InspectionData: 905 rows synced
+2025-07-22 20:36:23,054 - INFO - Table T50_InspectionData: 1141 rows synced
+2025-07-22 20:36:23,293 - INFO - Table T50_InspectionData: 1372 rows synced
+2025-07-22 20:36:23,528 - INFO - Table T50_InspectionData: 1633 rows synced
+2025-07-22 20:36:23,760 - INFO - Table T50_InspectionData: 1794 rows synced
+2025-07-22 20:36:23,994 - INFO - Table T50_InspectionData: 2016 rows synced
+2025-07-22 20:36:24,234 - INFO - Table T50_InspectionData: 2268 rows synced
+2025-07-22 20:36:24,473 - INFO - Table T50_InspectionData: 2494 rows synced
+2025-07-22 20:36:24,716 - INFO - Table T50_InspectionData: 2793 rows synced
+2025-07-22 20:36:24,963 - INFO - Table T50_InspectionData: 3085 rows synced
+2025-07-22 20:36:25,210 - INFO - Table T50_InspectionData: 3340 rows synced
+2025-07-22 20:36:25,457 - INFO - Table T50_InspectionData: 3590 rows synced
+2025-07-22 20:36:25,705 - INFO - Table T50_InspectionData: 3857 rows synced
+2025-07-22 20:36:25,938 - INFO - Table T50_InspectionData: 3935 rows synced
+2025-07-22 20:36:26,179 - INFO - Table T50_InspectionData: 4092 rows synced
+2025-07-22 20:36:26,418 - INFO - Table T50_InspectionData: 4214 rows synced
+2025-07-22 20:36:26,663 - INFO - Table T50_InspectionData: 4330 rows synced
+2025-07-22 20:36:26,845 - INFO - Table T50_InspectionData: 4335 rows synced
+2025-07-22 20:36:27,559 - INFO - Table T50_InspectionData: 4348 rows synced
+2025-07-22 20:36:27,779 - INFO - Table T50_InspectionData: 4395 rows synced
+2025-07-22 20:36:27,990 - INFO - Table T50_InspectionData: 4428 rows synced
+2025-07-22 20:36:28,202 - INFO - Table T50_InspectionData: 4462 rows synced
+2025-07-22 20:36:28,404 - INFO - Table T50_InspectionData: 4484 rows synced
+2025-07-22 20:36:28,649 - INFO - Table T50_InspectionData: 4571 rows synced
+2025-07-22 20:36:28,905 - INFO - Table T50_InspectionData: 4662 rows synced
+2025-07-22 20:36:29,163 - INFO - Table T50_InspectionData: 4769 rows synced
+2025-07-22 20:36:29,425 - INFO - Table T50_InspectionData: 4869 rows synced
+2025-07-22 20:36:29,683 - INFO - Table T50_InspectionData: 4967 rows synced
+2025-07-22 20:36:29,944 - INFO - Table T50_InspectionData: 5075 rows synced
+2025-07-22 20:36:30,210 - INFO - Table T50_InspectionData: 5160 rows synced
+2025-07-22 20:36:30,470 - INFO - Table T50_InspectionData: 5207 rows synced
+2025-07-22 20:36:30,733 - INFO - Table T50_InspectionData: 5271 rows synced
+2025-07-22 20:36:31,002 - INFO - Table T50_InspectionData: 5358 rows synced
+2025-07-22 20:36:31,267 - INFO - Table T50_InspectionData: 5409 rows synced
+2025-07-22 20:36:31,536 - INFO - Table T50_InspectionData: 5484 rows synced
+2025-07-22 20:36:31,805 - INFO - Table T50_InspectionData: 5553 rows synced
+2025-07-22 20:36:32,076 - INFO - Table T50_InspectionData: 5631 rows synced
+2025-07-22 20:36:32,347 - INFO - Table T50_InspectionData: 5698 rows synced
+2025-07-22 20:36:32,621 - INFO - Table T50_InspectionData: 5771 rows synced
+2025-07-22 20:36:32,898 - INFO - Table T50_InspectionData: 5879 rows synced
+2025-07-22 20:36:33,182 - INFO - Table T50_InspectionData: 6002 rows synced
+2025-07-22 20:36:33,380 - INFO - Table T50_InspectionData: 6069 rows synced
+2025-07-22 20:36:33,380 - INFO - Table T50_InspectionData: Sync completed (6069 rows)
+2025-07-22 20:36:33,380 - INFO - Processing table 2/4: T52_ProductItem
+2025-07-22 20:36:33,380 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 20:36:33,409 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:36:33,410 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:36:33,412 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 20:36:33,421 - INFO - Table T52_ProductItem: Syncing unknown rows (full)
+2025-07-22 20:36:33,437 - INFO - Table T52_ProductItem: Sync completed (0 rows)
+2025-07-22 20:36:33,437 - INFO - Processing table 3/4: T58_InLineData
+2025-07-22 20:36:33,437 - INFO - Starting sync for table: T58_InLineData
+2025-07-22 20:36:33,465 - INFO - Found 41 columns for table T58_InLineData
+2025-07-22 20:36:33,466 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `process_name` VARCHAR(255), `qty` INT, `qty_ok` INT, `X08` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:36:33,468 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-22 20:36:33,486 - INFO - Table T58_InLineData: Syncing unknown rows (full)
+2025-07-22 20:36:43,715 - INFO - Table T58_InLineData: Sync completed (0 rows)
+2025-07-22 20:36:43,715 - INFO - Processing table 4/4: T59_TransInLine
+2025-07-22 20:36:43,715 - INFO - Starting sync for table: T59_TransInLine
+2025-07-22 20:36:43,742 - INFO - Found 7 columns for table T59_TransInLine
+2025-07-22 20:36:43,744 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T59_TransInLine` (
+                `ID` INT AUTO_INCREMENT, `item_id` INT, `process_id` INT, `major_viet` VARCHAR(255), `major_jpn` VARCHAR(255), `process_viet` VARCHAR(255), `process_jpn` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:36:43,746 - INFO - Created table T59_TransInLine with 7 columns (full sync)
+2025-07-22 20:36:43,756 - INFO - Table T59_TransInLine: Syncing unknown rows (full)
+2025-07-22 20:36:43,778 - INFO - Table T59_TransInLine: 53 rows synced
+2025-07-22 20:36:43,899 - INFO - Table T59_TransInLine: 108 rows synced
+2025-07-22 20:36:44,017 - INFO - Table T59_TransInLine: 167 rows synced
+2025-07-22 20:36:44,017 - INFO - Table T59_TransInLine: Sync completed (167 rows)
+2025-07-22 20:36:44,017 - INFO - === Synchronization Summary ===
+2025-07-22 20:36:44,018 - INFO - Total tables: 4
+2025-07-22 20:36:44,018 - INFO - Successful: 4
+2025-07-22 20:36:44,018 - INFO - Failed: 0
+2025-07-22 20:36:44,018 - INFO - Duration: 0:00:21.838235
+2025-07-22 20:36:44,018 - INFO - MariaDB connection closed
+2025-07-22 20:41:11,162 - INFO - === Starting Database Synchronization ===
+2025-07-22 20:41:11,165 - INFO - Connected to MariaDB successfully
+2025-07-22 20:41:11,165 - INFO - Using configured tables: 4 tables
+2025-07-22 20:41:11,165 - INFO - Processing table 1/4: T50_InspectionData
+2025-07-22 20:41:11,165 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 20:41:11,178 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 20:41:11,180 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `line` INT, `date` DATETIME, `stye_no` INT, `color` VARCHAR(255), `size` VARCHAR(255), `qty` INT, `qty_ok` INT, `qty_recheck` INT, `qty_recheck_ok` INT, `qty_c` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:41:11,183 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-22 20:41:11,197 - INFO - Table T50_InspectionData: Syncing unknown rows (full)
+2025-07-22 20:41:11,330 - INFO - Table T50_InspectionData: 294 rows synced
+2025-07-22 20:41:11,564 - INFO - Table T50_InspectionData: 586 rows synced
+2025-07-22 20:41:11,799 - INFO - Table T50_InspectionData: 905 rows synced
+2025-07-22 20:41:12,031 - INFO - Table T50_InspectionData: 1141 rows synced
+2025-07-22 20:41:12,261 - INFO - Table T50_InspectionData: 1372 rows synced
+2025-07-22 20:41:12,497 - INFO - Table T50_InspectionData: 1633 rows synced
+2025-07-22 20:41:12,722 - INFO - Table T50_InspectionData: 1794 rows synced
+2025-07-22 20:41:12,951 - INFO - Table T50_InspectionData: 2016 rows synced
+2025-07-22 20:41:13,187 - INFO - Table T50_InspectionData: 2268 rows synced
+2025-07-22 20:41:13,423 - INFO - Table T50_InspectionData: 2494 rows synced
+2025-07-22 20:41:13,660 - INFO - Table T50_InspectionData: 2793 rows synced
+2025-07-22 20:41:13,896 - INFO - Table T50_InspectionData: 3085 rows synced
+2025-07-22 20:41:14,139 - INFO - Table T50_InspectionData: 3340 rows synced
+2025-07-22 20:41:14,377 - INFO - Table T50_InspectionData: 3590 rows synced
+2025-07-22 20:41:14,618 - INFO - Table T50_InspectionData: 3857 rows synced
+2025-07-22 20:41:14,844 - INFO - Table T50_InspectionData: 3935 rows synced
+2025-07-22 20:41:15,081 - INFO - Table T50_InspectionData: 4092 rows synced
+2025-07-22 20:41:15,316 - INFO - Table T50_InspectionData: 4214 rows synced
+2025-07-22 20:41:15,557 - INFO - Table T50_InspectionData: 4330 rows synced
+2025-07-22 20:41:15,737 - INFO - Table T50_InspectionData: 4335 rows synced
+2025-07-22 20:41:16,445 - INFO - Table T50_InspectionData: 4348 rows synced
+2025-07-22 20:41:16,660 - INFO - Table T50_InspectionData: 4395 rows synced
+2025-07-22 20:41:16,867 - INFO - Table T50_InspectionData: 4428 rows synced
+2025-07-22 20:41:17,077 - INFO - Table T50_InspectionData: 4462 rows synced
+2025-07-22 20:41:17,279 - INFO - Table T50_InspectionData: 4484 rows synced
+2025-07-22 20:41:17,523 - INFO - Table T50_InspectionData: 4571 rows synced
+2025-07-22 20:41:17,772 - INFO - Table T50_InspectionData: 4662 rows synced
+2025-07-22 20:41:18,029 - INFO - Table T50_InspectionData: 4769 rows synced
+2025-07-22 20:41:18,284 - INFO - Table T50_InspectionData: 4869 rows synced
+2025-07-22 20:41:18,541 - INFO - Table T50_InspectionData: 4967 rows synced
+2025-07-22 20:41:18,797 - INFO - Table T50_InspectionData: 5075 rows synced
+2025-07-22 20:41:19,058 - INFO - Table T50_InspectionData: 5160 rows synced
+2025-07-22 20:41:19,314 - INFO - Table T50_InspectionData: 5207 rows synced
+2025-07-22 20:41:19,573 - INFO - Table T50_InspectionData: 5271 rows synced
+2025-07-22 20:41:19,832 - INFO - Table T50_InspectionData: 5358 rows synced
+2025-07-22 20:41:20,094 - INFO - Table T50_InspectionData: 5409 rows synced
+2025-07-22 20:41:20,358 - INFO - Table T50_InspectionData: 5484 rows synced
+2025-07-22 20:41:20,624 - INFO - Table T50_InspectionData: 5553 rows synced
+2025-07-22 20:41:20,887 - INFO - Table T50_InspectionData: 5631 rows synced
+2025-07-22 20:41:21,157 - INFO - Table T50_InspectionData: 5698 rows synced
+2025-07-22 20:41:21,429 - INFO - Table T50_InspectionData: 5771 rows synced
+2025-07-22 20:41:21,699 - INFO - Table T50_InspectionData: 5879 rows synced
+2025-07-22 20:41:21,975 - INFO - Table T50_InspectionData: 6002 rows synced
+2025-07-22 20:41:22,170 - INFO - Table T50_InspectionData: 6069 rows synced
+2025-07-22 20:41:22,170 - INFO - Table T50_InspectionData: Sync completed (6069 rows)
+2025-07-22 20:41:22,170 - INFO - Processing table 2/4: T52_ProductItem
+2025-07-22 20:41:22,170 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 20:41:22,180 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:41:22,182 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:41:22,184 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 20:41:22,192 - INFO - Table T52_ProductItem: Syncing unknown rows (full)
+2025-07-22 20:41:22,207 - INFO - Table T52_ProductItem: Sync completed (0 rows)
+2025-07-22 20:41:22,208 - INFO - Processing table 3/4: T58_InLineData
+2025-07-22 20:41:22,208 - INFO - Starting sync for table: T58_InLineData
+2025-07-22 20:41:22,218 - INFO - Found 41 columns for table T58_InLineData
+2025-07-22 20:41:22,219 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `color` VARCHAR(255), `qty` INT, `qty_ok` INT, `X08` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:41:22,221 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-22 20:41:22,239 - INFO - Table T58_InLineData: Syncing unknown rows (full)
+2025-07-22 20:41:32,315 - INFO - Table T58_InLineData: Sync completed (0 rows)
+2025-07-22 20:41:32,315 - INFO - Processing table 4/4: T59_TransInLine
+2025-07-22 20:41:32,315 - INFO - Starting sync for table: T59_TransInLine
+2025-07-22 20:41:32,324 - INFO - Found 7 columns for table T59_TransInLine
+2025-07-22 20:41:32,326 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T59_TransInLine` (
+                `ID` INT AUTO_INCREMENT, `item_id` INT, `process_id` INT, `major_viet` VARCHAR(255), `major_jpn` VARCHAR(255), `process_viet` VARCHAR(255), `process_jpn` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:41:32,328 - INFO - Created table T59_TransInLine with 7 columns (full sync)
+2025-07-22 20:41:32,337 - INFO - Table T59_TransInLine: Syncing unknown rows (full)
+2025-07-22 20:41:32,358 - INFO - Table T59_TransInLine: 53 rows synced
+2025-07-22 20:41:32,480 - INFO - Table T59_TransInLine: 108 rows synced
+2025-07-22 20:41:32,597 - INFO - Table T59_TransInLine: 167 rows synced
+2025-07-22 20:41:32,597 - INFO - Table T59_TransInLine: Sync completed (167 rows)
+2025-07-22 20:41:32,597 - INFO - === Synchronization Summary ===
+2025-07-22 20:41:32,597 - INFO - Total tables: 4
+2025-07-22 20:41:32,597 - INFO - Successful: 4
+2025-07-22 20:41:32,597 - INFO - Failed: 0
+2025-07-22 20:41:32,597 - INFO - Duration: 0:00:21.434800
+2025-07-22 20:41:32,597 - INFO - MariaDB connection closed
+2025-07-22 20:43:15,903 - INFO - Connected to MariaDB successfully
+2025-07-22 20:43:15,903 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 20:43:15,914 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:43:15,916 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:43:15,919 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 20:43:15,928 - INFO - Table T52_ProductItem: Syncing unknown rows (full)
+2025-07-22 20:43:15,945 - INFO - Table T52_ProductItem: Sync completed (0 rows)
+2025-07-22 20:43:41,919 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:45:09,134 - INFO - Connected to MariaDB successfully
+2025-07-22 20:45:09,134 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 20:45:09,145 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:45:09,147 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:45:09,149 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 20:45:09,157 - INFO - Table T52_ProductItem: Syncing 315 rows (full)
+2025-07-22 20:45:09,173 - INFO - Table T52_ProductItem: Sync completed (0 rows)
+2025-07-22 20:45:30,474 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:45:59,723 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:46:20,670 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:46:26,775 - INFO - Connected to MariaDB successfully
+2025-07-22 20:46:26,775 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 20:46:26,786 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 20:46:26,788 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:46:26,790 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 20:46:26,800 - INFO - Table T52_ProductItem: Syncing 315 rows (full)
+2025-07-22 20:46:26,825 - INFO - Table T52_ProductItem: 314/315 rows (99.7%)
+2025-07-22 20:46:26,825 - INFO - Table T52_ProductItem: Sync completed (314 rows)
+2025-07-22 20:46:33,240 - INFO - Connected to MariaDB successfully
+2025-07-22 20:46:33,240 - INFO - Starting sync for table: T58_InLineData
+2025-07-22 20:46:33,252 - INFO - Found 41 columns for table T58_InLineData
+2025-07-22 20:46:33,254 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `color` VARCHAR(255), `qty` INT, `qty_ok` INT, `X08` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 20:46:33,256 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-22 20:46:33,275 - INFO - Table T58_InLineData: Syncing 83180 rows (full)
+2025-07-22 20:46:33,363 - INFO - Table T58_InLineData: 1000/83180 rows (1.2%)
+2025-07-22 20:46:33,546 - INFO - Table T58_InLineData: 1999/83180 rows (2.4%)
+2025-07-22 20:46:33,732 - INFO - Table T58_InLineData: 2997/83180 rows (3.6%)
+2025-07-22 20:46:33,918 - INFO - Table T58_InLineData: 3996/83180 rows (4.8%)
+2025-07-22 20:46:34,098 - INFO - Table T58_InLineData: 4994/83180 rows (6.0%)
+2025-07-22 20:46:34,282 - INFO - Table T58_InLineData: 5994/83180 rows (7.2%)
+2025-07-22 20:46:34,468 - INFO - Table T58_InLineData: 6992/83180 rows (8.4%)
+2025-07-22 20:46:34,653 - INFO - Table T58_InLineData: 7992/83180 rows (9.6%)
+2025-07-22 20:46:34,835 - INFO - Table T58_InLineData: 8987/83180 rows (10.8%)
+2025-07-22 20:46:35,019 - INFO - Table T58_InLineData: 9987/83180 rows (12.0%)
+2025-07-22 20:46:35,203 - INFO - Table T58_InLineData: 10987/83180 rows (13.2%)
+2025-07-22 20:46:35,394 - INFO - Table T58_InLineData: 11987/83180 rows (14.4%)
+2025-07-22 20:46:35,577 - INFO - Table T58_InLineData: 12985/83180 rows (15.6%)
+2025-07-22 20:46:35,759 - INFO - Table T58_InLineData: 13983/83180 rows (16.8%)
+2025-07-22 20:46:35,941 - INFO - Table T58_InLineData: 14982/83180 rows (18.0%)
+2025-07-22 20:46:36,126 - INFO - Table T58_InLineData: 15982/83180 rows (19.2%)
+2025-07-22 20:46:36,309 - INFO - Table T58_InLineData: 16981/83180 rows (20.4%)
+2025-07-22 20:46:36,497 - INFO - Table T58_InLineData: 17980/83180 rows (21.6%)
+2025-07-22 20:46:36,683 - INFO - Table T58_InLineData: 18980/83180 rows (22.8%)
+2025-07-22 20:46:36,868 - INFO - Table T58_InLineData: 19979/83180 rows (24.0%)
+2025-07-22 20:46:37,060 - INFO - Table T58_InLineData: 20979/83180 rows (25.2%)
+2025-07-22 20:46:37,252 - INFO - Table T58_InLineData: 21978/83180 rows (26.4%)
+2025-07-22 20:46:37,439 - INFO - Table T58_InLineData: 22978/83180 rows (27.6%)
+2025-07-22 20:46:37,625 - INFO - Table T58_InLineData: 23977/83180 rows (28.8%)
+2025-07-22 20:46:37,812 - INFO - Table T58_InLineData: 24977/83180 rows (30.0%)
+2025-07-22 20:46:38,001 - INFO - Table T58_InLineData: 25977/83180 rows (31.2%)
+2025-07-22 20:46:38,190 - INFO - Table T58_InLineData: 26977/83180 rows (32.4%)
+2025-07-22 20:46:38,379 - INFO - Table T58_InLineData: 27977/83180 rows (33.6%)
+2025-07-22 20:46:38,566 - INFO - Table T58_InLineData: 28977/83180 rows (34.8%)
+2025-07-22 20:46:38,756 - INFO - Table T58_InLineData: 29977/83180 rows (36.0%)
+2025-07-22 20:46:38,947 - INFO - Table T58_InLineData: 30977/83180 rows (37.2%)
+2025-07-22 20:46:39,135 - INFO - Table T58_InLineData: 31976/83180 rows (38.4%)
+2025-07-22 20:46:39,329 - INFO - Table T58_InLineData: 32975/83180 rows (39.6%)
+2025-07-22 20:46:39,520 - INFO - Table T58_InLineData: 33975/83180 rows (40.8%)
+2025-07-22 20:46:39,711 - INFO - Table T58_InLineData: 34975/83180 rows (42.0%)
+2025-07-22 20:46:39,903 - INFO - Table T58_InLineData: 35975/83180 rows (43.2%)
+2025-07-22 20:46:40,100 - INFO - Table T58_InLineData: 36975/83180 rows (44.5%)
+2025-07-22 20:46:40,292 - INFO - Table T58_InLineData: 37975/83180 rows (45.7%)
+2025-07-22 20:46:40,493 - INFO - Table T58_InLineData: 38975/83180 rows (46.9%)
+2025-07-22 20:46:40,686 - INFO - Table T58_InLineData: 39974/83180 rows (48.1%)
+2025-07-22 20:46:40,877 - INFO - Table T58_InLineData: 40974/83180 rows (49.3%)
+2025-07-22 20:46:41,070 - INFO - Table T58_InLineData: 41974/83180 rows (50.5%)
+2025-07-22 20:46:41,264 - INFO - Table T58_InLineData: 42974/83180 rows (51.7%)
+2025-07-22 20:46:41,461 - INFO - Table T58_InLineData: 43974/83180 rows (52.9%)
+2025-07-22 20:46:41,655 - INFO - Table T58_InLineData: 44974/83180 rows (54.1%)
+2025-07-22 20:46:41,850 - INFO - Table T58_InLineData: 45974/83180 rows (55.3%)
+2025-07-22 20:46:42,050 - INFO - Table T58_InLineData: 46974/83180 rows (56.5%)
+2025-07-22 20:46:42,246 - INFO - Table T58_InLineData: 47974/83180 rows (57.7%)
+2025-07-22 20:46:42,441 - INFO - Table T58_InLineData: 48974/83180 rows (58.9%)
+2025-07-22 20:46:42,637 - INFO - Table T58_InLineData: 49974/83180 rows (60.1%)
+2025-07-22 20:46:42,833 - INFO - Table T58_InLineData: 50974/83180 rows (61.3%)
+2025-07-22 20:46:43,031 - INFO - Table T58_InLineData: 51974/83180 rows (62.5%)
+2025-07-22 20:46:43,229 - INFO - Table T58_InLineData: 52974/83180 rows (63.7%)
+2025-07-22 20:46:43,426 - INFO - Table T58_InLineData: 53974/83180 rows (64.9%)
+2025-07-22 20:46:43,624 - INFO - Table T58_InLineData: 54974/83180 rows (66.1%)
+2025-07-22 20:46:43,822 - INFO - Table T58_InLineData: 55974/83180 rows (67.3%)
+2025-07-22 20:46:44,019 - INFO - Table T58_InLineData: 56974/83180 rows (68.5%)
+2025-07-22 20:46:44,218 - INFO - Table T58_InLineData: 57974/83180 rows (69.7%)
+2025-07-22 20:46:44,417 - INFO - Table T58_InLineData: 58974/83180 rows (70.9%)
+2025-07-22 20:46:44,616 - INFO - Table T58_InLineData: 59974/83180 rows (72.1%)
+2025-07-22 20:46:44,815 - INFO - Table T58_InLineData: 60974/83180 rows (73.3%)
+2025-07-22 20:46:45,016 - INFO - Table T58_InLineData: 61974/83180 rows (74.5%)
+2025-07-22 20:46:45,215 - INFO - Table T58_InLineData: 62974/83180 rows (75.7%)
+2025-07-22 20:46:45,415 - INFO - Table T58_InLineData: 63974/83180 rows (76.9%)
+2025-07-22 20:46:45,616 - INFO - Table T58_InLineData: 64974/83180 rows (78.1%)
+2025-07-22 20:46:45,815 - INFO - Table T58_InLineData: 65974/83180 rows (79.3%)
+2025-07-22 20:46:46,019 - INFO - Table T58_InLineData: 66973/83180 rows (80.5%)
+2025-07-22 20:46:46,220 - INFO - Table T58_InLineData: 67972/83180 rows (81.7%)
+2025-07-22 20:46:46,422 - INFO - Table T58_InLineData: 68972/83180 rows (82.9%)
+2025-07-22 20:46:46,625 - INFO - Table T58_InLineData: 69972/83180 rows (84.1%)
+2025-07-22 20:46:46,827 - INFO - Table T58_InLineData: 70972/83180 rows (85.3%)
+2025-07-22 20:46:47,033 - INFO - Table T58_InLineData: 71972/83180 rows (86.5%)
+2025-07-22 20:46:47,237 - INFO - Table T58_InLineData: 72972/83180 rows (87.7%)
+2025-07-22 20:46:47,442 - INFO - Table T58_InLineData: 73972/83180 rows (88.9%)
+2025-07-22 20:46:47,649 - INFO - Table T58_InLineData: 74971/83180 rows (90.1%)
+2025-07-22 20:46:47,855 - INFO - Table T58_InLineData: 75970/83180 rows (91.3%)
+2025-07-22 20:46:48,063 - INFO - Table T58_InLineData: 76970/83180 rows (92.5%)
+2025-07-22 20:46:48,270 - INFO - Table T58_InLineData: 77969/83180 rows (93.7%)
+2025-07-22 20:46:48,478 - INFO - Table T58_InLineData: 78969/83180 rows (94.9%)
+2025-07-22 20:46:48,684 - INFO - Table T58_InLineData: 79968/83180 rows (96.1%)
+2025-07-22 20:46:48,895 - INFO - Table T58_InLineData: 80968/83180 rows (97.3%)
+2025-07-22 20:46:49,102 - INFO - Table T58_InLineData: 81968/83180 rows (98.5%)
+2025-07-22 20:46:49,310 - INFO - Table T58_InLineData: 82967/83180 rows (99.7%)
+2025-07-22 20:46:49,463 - INFO - Table T58_InLineData: 83147/83180 rows (100.0%)
+2025-07-22 20:46:49,463 - INFO - Table T58_InLineData: Sync completed (83147 rows)
+2025-07-22 21:03:08,002 - INFO - Cleared all sync timestamps - next sync will be full for all tables
+2025-07-22 21:03:08,002 - INFO - === Starting Database Synchronization ===
+2025-07-22 21:03:08,005 - INFO - Connected to MariaDB successfully
+2025-07-22 21:03:08,005 - INFO - Using configured tables: 4 tables
+2025-07-22 21:03:08,005 - INFO - Processing table 1/4: T50_InspectionData
+2025-07-22 21:03:08,005 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 21:03:08,019 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 21:03:08,021 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `line` INT, `date` DATETIME, `stye_no` INT, `color` VARCHAR(255), `size` VARCHAR(255), `qty` INT, `qty_ok` INT, `qty_recheck` INT, `qty_recheck_ok` INT, `qty_c` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:03:08,024 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-22 21:03:08,038 - INFO - Table T50_InspectionData: Syncing 46138 rows (full)
+2025-07-22 21:03:08,170 - INFO - Table T50_InspectionData: 294/46138 rows (0.6%)
+2025-07-22 21:03:08,398 - INFO - Table T50_InspectionData: 586/46138 rows (1.3%)
+2025-07-22 21:03:08,630 - INFO - Table T50_InspectionData: 905/46138 rows (2.0%)
+2025-07-22 21:03:08,854 - INFO - Table T50_InspectionData: 1141/46138 rows (2.5%)
+2025-07-22 21:03:09,085 - INFO - Table T50_InspectionData: 1372/46138 rows (3.0%)
+2025-07-22 21:03:09,316 - INFO - Table T50_InspectionData: 1633/46138 rows (3.5%)
+2025-07-22 21:03:09,541 - INFO - Table T50_InspectionData: 1794/46138 rows (3.9%)
+2025-07-22 21:03:09,764 - INFO - Table T50_InspectionData: 2016/46138 rows (4.4%)
+2025-07-22 21:03:09,996 - INFO - Table T50_InspectionData: 2268/46138 rows (4.9%)
+2025-07-22 21:03:10,230 - INFO - Table T50_InspectionData: 2494/46138 rows (5.4%)
+2025-07-22 21:03:10,471 - INFO - Table T50_InspectionData: 2793/46138 rows (6.1%)
+2025-07-22 21:03:10,711 - INFO - Table T50_InspectionData: 3085/46138 rows (6.7%)
+2025-07-22 21:03:10,947 - INFO - Table T50_InspectionData: 3340/46138 rows (7.2%)
+2025-07-22 21:03:11,186 - INFO - Table T50_InspectionData: 3590/46138 rows (7.8%)
+2025-07-22 21:03:11,426 - INFO - Table T50_InspectionData: 3880/46138 rows (8.4%)
+2025-07-22 21:03:11,722 - INFO - Table T50_InspectionData: 4866/46138 rows (10.5%)
+2025-07-22 21:03:12,015 - INFO - Table T50_InspectionData: 5866/46138 rows (12.7%)
+2025-07-22 21:03:12,309 - INFO - Table T50_InspectionData: 6864/46138 rows (14.9%)
+2025-07-22 21:03:12,605 - INFO - Table T50_InspectionData: 7864/46138 rows (17.0%)
+2025-07-22 21:03:12,847 - INFO - Table T50_InspectionData: 8864/46138 rows (19.2%)
+2025-07-22 21:03:13,083 - INFO - Table T50_InspectionData: 9864/46138 rows (21.4%)
+2025-07-22 21:03:13,322 - INFO - Table T50_InspectionData: 10864/46138 rows (23.5%)
+2025-07-22 21:03:13,559 - INFO - Table T50_InspectionData: 11864/46138 rows (25.7%)
+2025-07-22 21:03:13,811 - INFO - Table T50_InspectionData: 12864/46138 rows (27.9%)
+2025-07-22 21:03:14,097 - INFO - Table T50_InspectionData: 13864/46138 rows (30.0%)
+2025-07-22 21:03:14,367 - INFO - Table T50_InspectionData: 14864/46138 rows (32.2%)
+2025-07-22 21:03:14,641 - INFO - Table T50_InspectionData: 15864/46138 rows (34.4%)
+2025-07-22 21:03:14,902 - INFO - Table T50_InspectionData: 16864/46138 rows (36.6%)
+2025-07-22 21:03:15,207 - INFO - Table T50_InspectionData: 17864/46138 rows (38.7%)
+2025-07-22 21:03:15,521 - INFO - Table T50_InspectionData: 18864/46138 rows (40.9%)
+2025-07-22 21:03:15,832 - INFO - Table T50_InspectionData: 19864/46138 rows (43.1%)
+2025-07-22 21:03:16,147 - INFO - Table T50_InspectionData: 20864/46138 rows (45.2%)
+2025-07-22 21:03:16,458 - INFO - Table T50_InspectionData: 21864/46138 rows (47.4%)
+2025-07-22 21:03:16,774 - INFO - Table T50_InspectionData: 22864/46138 rows (49.6%)
+2025-07-22 21:03:17,095 - INFO - Table T50_InspectionData: 23864/46138 rows (51.7%)
+2025-07-22 21:03:17,423 - INFO - Table T50_InspectionData: 24861/46138 rows (53.9%)
+2025-07-22 21:03:17,756 - INFO - Table T50_InspectionData: 25861/46138 rows (56.1%)
+2025-07-22 21:03:18,086 - INFO - Table T50_InspectionData: 26861/46138 rows (58.2%)
+2025-07-22 21:03:18,412 - INFO - Table T50_InspectionData: 27861/46138 rows (60.4%)
+2025-07-22 21:03:18,748 - INFO - Table T50_InspectionData: 28861/46138 rows (62.6%)
+2025-07-22 21:03:19,073 - INFO - Table T50_InspectionData: 29861/46138 rows (64.7%)
+2025-07-22 21:03:19,404 - INFO - Table T50_InspectionData: 30861/46138 rows (66.9%)
+2025-07-22 21:03:19,733 - INFO - Table T50_InspectionData: 31861/46138 rows (69.1%)
+2025-07-22 21:03:20,064 - INFO - Table T50_InspectionData: 32860/46138 rows (71.2%)
+2025-07-22 21:03:20,398 - INFO - Table T50_InspectionData: 33860/46138 rows (73.4%)
+2025-07-22 21:03:20,733 - INFO - Table T50_InspectionData: 34860/46138 rows (75.6%)
+2025-07-22 21:03:20,934 - INFO - Table T50_InspectionData: 34998/46138 rows (75.9%)
+2025-07-22 21:03:20,934 - INFO - Table T50_InspectionData: Sync completed (34998 rows)
+2025-07-22 21:03:20,934 - INFO - Processing table 2/4: T52_ProductItem
+2025-07-22 21:03:20,934 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 21:03:20,944 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 21:03:20,946 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:03:20,948 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 21:03:20,957 - INFO - Table T52_ProductItem: Syncing 315 rows (full)
+2025-07-22 21:03:20,980 - INFO - Table T52_ProductItem: 314/315 rows (99.7%)
+2025-07-22 21:03:20,980 - INFO - Table T52_ProductItem: Sync completed (314 rows)
+2025-07-22 21:03:20,980 - INFO - Processing table 3/4: T58_InLineData
+2025-07-22 21:03:20,980 - INFO - Starting sync for table: T58_InLineData
+2025-07-22 21:03:20,991 - INFO - Found 41 columns for table T58_InLineData
+2025-07-22 21:03:20,992 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `color` VARCHAR(255), `qty` INT, `qty_ok` INT, `X08` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:03:20,995 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-22 21:03:21,012 - INFO - Table T58_InLineData: Syncing 83180 rows (full)
+2025-07-22 21:03:21,092 - INFO - Table T58_InLineData: 1000/83180 rows (1.2%)
+2025-07-22 21:03:21,275 - INFO - Table T58_InLineData: 1999/83180 rows (2.4%)
+2025-07-22 21:03:21,456 - INFO - Table T58_InLineData: 2997/83180 rows (3.6%)
+2025-07-22 21:03:21,636 - INFO - Table T58_InLineData: 3996/83180 rows (4.8%)
+2025-07-22 21:03:21,817 - INFO - Table T58_InLineData: 4994/83180 rows (6.0%)
+2025-07-22 21:03:22,000 - INFO - Table T58_InLineData: 5994/83180 rows (7.2%)
+2025-07-22 21:03:22,184 - INFO - Table T58_InLineData: 6992/83180 rows (8.4%)
+2025-07-22 21:03:22,370 - INFO - Table T58_InLineData: 7992/83180 rows (9.6%)
+2025-07-22 21:03:22,551 - INFO - Table T58_InLineData: 8987/83180 rows (10.8%)
+2025-07-22 21:03:22,733 - INFO - Table T58_InLineData: 9987/83180 rows (12.0%)
+2025-07-22 21:03:22,914 - INFO - Table T58_InLineData: 10987/83180 rows (13.2%)
+2025-07-22 21:03:23,095 - INFO - Table T58_InLineData: 11987/83180 rows (14.4%)
+2025-07-22 21:03:23,277 - INFO - Table T58_InLineData: 12985/83180 rows (15.6%)
+2025-07-22 21:03:23,458 - INFO - Table T58_InLineData: 13983/83180 rows (16.8%)
+2025-07-22 21:03:23,643 - INFO - Table T58_InLineData: 14982/83180 rows (18.0%)
+2025-07-22 21:03:23,827 - INFO - Table T58_InLineData: 15982/83180 rows (19.2%)
+2025-07-22 21:03:24,010 - INFO - Table T58_InLineData: 16981/83180 rows (20.4%)
+2025-07-22 21:03:24,192 - INFO - Table T58_InLineData: 17980/83180 rows (21.6%)
+2025-07-22 21:03:24,376 - INFO - Table T58_InLineData: 18980/83180 rows (22.8%)
+2025-07-22 21:03:24,557 - INFO - Table T58_InLineData: 19979/83180 rows (24.0%)
+2025-07-22 21:03:24,741 - INFO - Table T58_InLineData: 20979/83180 rows (25.2%)
+2025-07-22 21:03:24,924 - INFO - Table T58_InLineData: 21978/83180 rows (26.4%)
+2025-07-22 21:03:25,108 - INFO - Table T58_InLineData: 22978/83180 rows (27.6%)
+2025-07-22 21:03:25,293 - INFO - Table T58_InLineData: 23977/83180 rows (28.8%)
+2025-07-22 21:03:25,479 - INFO - Table T58_InLineData: 24977/83180 rows (30.0%)
+2025-07-22 21:03:25,663 - INFO - Table T58_InLineData: 25977/83180 rows (31.2%)
+2025-07-22 21:03:25,847 - INFO - Table T58_InLineData: 26977/83180 rows (32.4%)
+2025-07-22 21:03:26,033 - INFO - Table T58_InLineData: 27977/83180 rows (33.6%)
+2025-07-22 21:03:26,219 - INFO - Table T58_InLineData: 28977/83180 rows (34.8%)
+2025-07-22 21:03:26,405 - INFO - Table T58_InLineData: 29977/83180 rows (36.0%)
+2025-07-22 21:03:26,592 - INFO - Table T58_InLineData: 30977/83180 rows (37.2%)
+2025-07-22 21:03:26,778 - INFO - Table T58_InLineData: 31976/83180 rows (38.4%)
+2025-07-22 21:03:26,967 - INFO - Table T58_InLineData: 32975/83180 rows (39.6%)
+2025-07-22 21:03:27,156 - INFO - Table T58_InLineData: 33975/83180 rows (40.8%)
+2025-07-22 21:03:27,346 - INFO - Table T58_InLineData: 34975/83180 rows (42.0%)
+2025-07-22 21:03:27,535 - INFO - Table T58_InLineData: 35975/83180 rows (43.2%)
+2025-07-22 21:03:27,723 - INFO - Table T58_InLineData: 36975/83180 rows (44.5%)
+2025-07-22 21:03:27,915 - INFO - Table T58_InLineData: 37975/83180 rows (45.7%)
+2025-07-22 21:03:28,107 - INFO - Table T58_InLineData: 38975/83180 rows (46.9%)
+2025-07-22 21:03:28,299 - INFO - Table T58_InLineData: 39974/83180 rows (48.1%)
+2025-07-22 21:03:28,489 - INFO - Table T58_InLineData: 40974/83180 rows (49.3%)
+2025-07-22 21:03:28,682 - INFO - Table T58_InLineData: 41974/83180 rows (50.5%)
+2025-07-22 21:03:28,871 - INFO - Table T58_InLineData: 42974/83180 rows (51.7%)
+2025-07-22 21:03:29,064 - INFO - Table T58_InLineData: 43974/83180 rows (52.9%)
+2025-07-22 21:03:29,255 - INFO - Table T58_InLineData: 44974/83180 rows (54.1%)
+2025-07-22 21:03:29,446 - INFO - Table T58_InLineData: 45974/83180 rows (55.3%)
+2025-07-22 21:03:29,636 - INFO - Table T58_InLineData: 46974/83180 rows (56.5%)
+2025-07-22 21:03:29,828 - INFO - Table T58_InLineData: 47974/83180 rows (57.7%)
+2025-07-22 21:03:30,021 - INFO - Table T58_InLineData: 48974/83180 rows (58.9%)
+2025-07-22 21:03:30,215 - INFO - Table T58_InLineData: 49974/83180 rows (60.1%)
+2025-07-22 21:03:30,404 - INFO - Table T58_InLineData: 50974/83180 rows (61.3%)
+2025-07-22 21:03:30,599 - INFO - Table T58_InLineData: 51974/83180 rows (62.5%)
+2025-07-22 21:03:30,791 - INFO - Table T58_InLineData: 52974/83180 rows (63.7%)
+2025-07-22 21:03:30,985 - INFO - Table T58_InLineData: 53974/83180 rows (64.9%)
+2025-07-22 21:03:31,180 - INFO - Table T58_InLineData: 54974/83180 rows (66.1%)
+2025-07-22 21:03:31,376 - INFO - Table T58_InLineData: 55974/83180 rows (67.3%)
+2025-07-22 21:03:31,569 - INFO - Table T58_InLineData: 56974/83180 rows (68.5%)
+2025-07-22 21:03:31,764 - INFO - Table T58_InLineData: 57974/83180 rows (69.7%)
+2025-07-22 21:03:31,961 - INFO - Table T58_InLineData: 58974/83180 rows (70.9%)
+2025-07-22 21:03:32,157 - INFO - Table T58_InLineData: 59974/83180 rows (72.1%)
+2025-07-22 21:03:32,353 - INFO - Table T58_InLineData: 60974/83180 rows (73.3%)
+2025-07-22 21:03:32,549 - INFO - Table T58_InLineData: 61974/83180 rows (74.5%)
+2025-07-22 21:03:32,744 - INFO - Table T58_InLineData: 62974/83180 rows (75.7%)
+2025-07-22 21:03:32,942 - INFO - Table T58_InLineData: 63974/83180 rows (76.9%)
+2025-07-22 21:03:33,141 - INFO - Table T58_InLineData: 64974/83180 rows (78.1%)
+2025-07-22 21:03:33,341 - INFO - Table T58_InLineData: 65974/83180 rows (79.3%)
+2025-07-22 21:03:33,540 - INFO - Table T58_InLineData: 66973/83180 rows (80.5%)
+2025-07-22 21:03:33,739 - INFO - Table T58_InLineData: 67972/83180 rows (81.7%)
+2025-07-22 21:03:33,941 - INFO - Table T58_InLineData: 68972/83180 rows (82.9%)
+2025-07-22 21:03:34,144 - INFO - Table T58_InLineData: 69972/83180 rows (84.1%)
+2025-07-22 21:03:34,345 - INFO - Table T58_InLineData: 70972/83180 rows (85.3%)
+2025-07-22 21:03:34,546 - INFO - Table T58_InLineData: 71972/83180 rows (86.5%)
+2025-07-22 21:03:34,747 - INFO - Table T58_InLineData: 72972/83180 rows (87.7%)
+2025-07-22 21:03:34,955 - INFO - Table T58_InLineData: 73972/83180 rows (88.9%)
+2025-07-22 21:03:35,159 - INFO - Table T58_InLineData: 74971/83180 rows (90.1%)
+2025-07-22 21:03:35,361 - INFO - Table T58_InLineData: 75970/83180 rows (91.3%)
+2025-07-22 21:03:35,566 - INFO - Table T58_InLineData: 76970/83180 rows (92.5%)
+2025-07-22 21:03:35,768 - INFO - Table T58_InLineData: 77969/83180 rows (93.7%)
+2025-07-22 21:03:35,973 - INFO - Table T58_InLineData: 78969/83180 rows (94.9%)
+2025-07-22 21:03:36,180 - INFO - Table T58_InLineData: 79968/83180 rows (96.1%)
+2025-07-22 21:03:36,382 - INFO - Table T58_InLineData: 80968/83180 rows (97.3%)
+2025-07-22 21:03:36,590 - INFO - Table T58_InLineData: 81968/83180 rows (98.5%)
+2025-07-22 21:03:36,800 - INFO - Table T58_InLineData: 82967/83180 rows (99.7%)
+2025-07-22 21:03:36,953 - INFO - Table T58_InLineData: 83147/83180 rows (100.0%)
+2025-07-22 21:03:36,953 - INFO - Table T58_InLineData: Sync completed (83147 rows)
+2025-07-22 21:03:36,953 - INFO - Processing table 4/4: T59_TransInLine
+2025-07-22 21:03:36,953 - INFO - Starting sync for table: T59_TransInLine
+2025-07-22 21:03:36,963 - INFO - Found 7 columns for table T59_TransInLine
+2025-07-22 21:03:36,965 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T59_TransInLine` (
+                `ID` INT AUTO_INCREMENT, `item_id` INT, `process_id` INT, `major_viet` VARCHAR(255), `major_jpn` VARCHAR(255), `process_viet` VARCHAR(255), `process_jpn` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:03:36,967 - INFO - Created table T59_TransInLine with 7 columns (full sync)
+2025-07-22 21:03:36,975 - INFO - Table T59_TransInLine: Syncing 3603 rows (full)
+2025-07-22 21:03:37,000 - INFO - Table T59_TransInLine: 210/3603 rows (5.8%)
+2025-07-22 21:03:37,126 - INFO - Table T59_TransInLine: 508/3603 rows (14.1%)
+2025-07-22 21:03:37,254 - INFO - Table T59_TransInLine: 1464/3603 rows (40.6%)
+2025-07-22 21:03:37,375 - INFO - Table T59_TransInLine: 1909/3603 rows (53.0%)
+2025-07-22 21:03:37,375 - INFO - Table T59_TransInLine: Sync completed (1909 rows)
+2025-07-22 21:03:37,376 - INFO - === Synchronization Summary ===
+2025-07-22 21:03:37,376 - INFO - Total tables: 4
+2025-07-22 21:03:37,376 - INFO - Successful: 4
+2025-07-22 21:03:37,376 - INFO - Failed: 0
+2025-07-22 21:03:37,376 - INFO - Duration: 0:00:29.373547
+2025-07-22 21:03:37,376 - INFO - MariaDB connection closed
+2025-07-22 21:36:44,543 - INFO - Cleared all sync timestamps - next sync will be full for all tables
+2025-07-22 21:36:44,543 - INFO - === Starting Database Synchronization ===
+2025-07-22 21:36:44,546 - INFO - Connected to MariaDB successfully
+2025-07-22 21:36:44,546 - INFO - Using configured tables: 4 tables
+2025-07-22 21:36:44,546 - INFO - Processing table 1/4: T50_InspectionData
+2025-07-22 21:36:44,546 - INFO - Starting sync for table: T50_InspectionData
+2025-07-22 21:36:44,559 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-22 21:36:44,562 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `line` INT, `date` DATETIME, `stye_no` INT, `color` VARCHAR(255), `size` VARCHAR(255), `qty` INT, `qty_ok` INT, `qty_recheck` INT, `qty_recheck_ok` INT, `qty_c` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:36:44,564 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-22 21:36:44,579 - INFO - Table T50_InspectionData: Syncing 46138 rows (full)
+2025-07-22 21:36:44,708 - INFO - Table T50_InspectionData: 294/46138 rows (0.6%)
+2025-07-22 21:36:44,943 - INFO - Table T50_InspectionData: 586/46138 rows (1.3%)
+2025-07-22 21:36:45,176 - INFO - Table T50_InspectionData: 905/46138 rows (2.0%)
+2025-07-22 21:36:45,398 - INFO - Table T50_InspectionData: 1141/46138 rows (2.5%)
+2025-07-22 21:36:45,631 - INFO - Table T50_InspectionData: 1372/46138 rows (3.0%)
+2025-07-22 21:36:45,861 - INFO - Table T50_InspectionData: 1633/46138 rows (3.5%)
+2025-07-22 21:36:46,085 - INFO - Table T50_InspectionData: 1794/46138 rows (3.9%)
+2025-07-22 21:36:46,316 - INFO - Table T50_InspectionData: 2016/46138 rows (4.4%)
+2025-07-22 21:36:46,551 - INFO - Table T50_InspectionData: 2268/46138 rows (4.9%)
+2025-07-22 21:36:46,781 - INFO - Table T50_InspectionData: 2494/46138 rows (5.4%)
+2025-07-22 21:36:47,022 - INFO - Table T50_InspectionData: 2793/46138 rows (6.1%)
+2025-07-22 21:36:47,269 - INFO - Table T50_InspectionData: 3085/46138 rows (6.7%)
+2025-07-22 21:36:47,553 - INFO - Table T50_InspectionData: 3340/46138 rows (7.2%)
+2025-07-22 21:36:47,796 - INFO - Table T50_InspectionData: 3590/46138 rows (7.8%)
+2025-07-22 21:36:48,044 - INFO - Table T50_InspectionData: 3880/46138 rows (8.4%)
+2025-07-22 21:36:48,340 - INFO - Table T50_InspectionData: 4866/46138 rows (10.5%)
+2025-07-22 21:36:48,639 - INFO - Table T50_InspectionData: 5866/46138 rows (12.7%)
+2025-07-22 21:36:48,939 - INFO - Table T50_InspectionData: 6864/46138 rows (14.9%)
+2025-07-22 21:36:49,240 - INFO - Table T50_InspectionData: 7864/46138 rows (17.0%)
+2025-07-22 21:36:49,484 - INFO - Table T50_InspectionData: 8864/46138 rows (19.2%)
+2025-07-22 21:36:49,717 - INFO - Table T50_InspectionData: 9864/46138 rows (21.4%)
+2025-07-22 21:36:49,953 - INFO - Table T50_InspectionData: 10864/46138 rows (23.5%)
+2025-07-22 21:36:50,189 - INFO - Table T50_InspectionData: 11864/46138 rows (25.7%)
+2025-07-22 21:36:50,442 - INFO - Table T50_InspectionData: 12864/46138 rows (27.9%)
+2025-07-22 21:36:50,729 - INFO - Table T50_InspectionData: 13864/46138 rows (30.0%)
+2025-07-22 21:36:51,001 - INFO - Table T50_InspectionData: 14864/46138 rows (32.2%)
+2025-07-22 21:36:51,275 - INFO - Table T50_InspectionData: 15864/46138 rows (34.4%)
+2025-07-22 21:36:51,541 - INFO - Table T50_InspectionData: 16864/46138 rows (36.6%)
+2025-07-22 21:36:51,843 - INFO - Table T50_InspectionData: 17864/46138 rows (38.7%)
+2025-07-22 21:36:52,154 - INFO - Table T50_InspectionData: 18864/46138 rows (40.9%)
+2025-07-22 21:36:52,471 - INFO - Table T50_InspectionData: 19864/46138 rows (43.1%)
+2025-07-22 21:36:52,784 - INFO - Table T50_InspectionData: 20864/46138 rows (45.2%)
+2025-07-22 21:36:53,108 - INFO - Table T50_InspectionData: 21864/46138 rows (47.4%)
+2025-07-22 21:36:53,426 - INFO - Table T50_InspectionData: 22864/46138 rows (49.6%)
+2025-07-22 21:36:53,742 - INFO - Table T50_InspectionData: 23864/46138 rows (51.7%)
+2025-07-22 21:36:54,070 - INFO - Table T50_InspectionData: 24861/46138 rows (53.9%)
+2025-07-22 21:36:54,395 - INFO - Table T50_InspectionData: 25861/46138 rows (56.1%)
+2025-07-22 21:36:54,718 - INFO - Table T50_InspectionData: 26861/46138 rows (58.2%)
+2025-07-22 21:36:55,050 - INFO - Table T50_InspectionData: 27861/46138 rows (60.4%)
+2025-07-22 21:36:55,376 - INFO - Table T50_InspectionData: 28861/46138 rows (62.6%)
+2025-07-22 21:36:55,697 - INFO - Table T50_InspectionData: 29861/46138 rows (64.7%)
+2025-07-22 21:36:56,033 - INFO - Table T50_InspectionData: 30861/46138 rows (66.9%)
+2025-07-22 21:36:56,373 - INFO - Table T50_InspectionData: 31861/46138 rows (69.1%)
+2025-07-22 21:36:56,708 - INFO - Table T50_InspectionData: 32860/46138 rows (71.2%)
+2025-07-22 21:36:57,042 - INFO - Table T50_InspectionData: 33860/46138 rows (73.4%)
+2025-07-22 21:36:57,375 - INFO - Table T50_InspectionData: 34860/46138 rows (75.6%)
+2025-07-22 21:36:57,577 - INFO - Table T50_InspectionData: 34998/46138 rows (75.9%)
+2025-07-22 21:36:57,577 - INFO - Table T50_InspectionData: Sync completed (34998 rows)
+2025-07-22 21:36:57,577 - INFO - Processing table 2/4: T52_ProductItem
+2025-07-22 21:36:57,577 - INFO - Starting sync for table: T52_ProductItem
+2025-07-22 21:36:57,587 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-22 21:36:57,589 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:36:57,591 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-22 21:36:57,599 - INFO - Table T52_ProductItem: Syncing 315 rows (full)
+2025-07-22 21:36:57,624 - INFO - Table T52_ProductItem: 314/315 rows (99.7%)
+2025-07-22 21:36:57,625 - INFO - Table T52_ProductItem: Sync completed (314 rows)
+2025-07-22 21:36:57,625 - INFO - Processing table 3/4: T58_InLineData
+2025-07-22 21:36:57,625 - INFO - Starting sync for table: T58_InLineData
+2025-07-22 21:36:57,635 - INFO - Found 41 columns for table T58_InLineData
+2025-07-22 21:36:57,637 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `color` VARCHAR(255), `qty` INT, `qty_ok` INT, `item_id` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:36:57,639 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-22 21:36:57,656 - INFO - Table T58_InLineData: Syncing 83180 rows (full)
+2025-07-22 21:36:57,733 - INFO - Table T58_InLineData: 1000/83180 rows (1.2%)
+2025-07-22 21:36:57,913 - INFO - Table T58_InLineData: 1999/83180 rows (2.4%)
+2025-07-22 21:36:58,095 - INFO - Table T58_InLineData: 2997/83180 rows (3.6%)
+2025-07-22 21:36:58,274 - INFO - Table T58_InLineData: 3996/83180 rows (4.8%)
+2025-07-22 21:36:58,456 - INFO - Table T58_InLineData: 4994/83180 rows (6.0%)
+2025-07-22 21:36:58,635 - INFO - Table T58_InLineData: 5994/83180 rows (7.2%)
+2025-07-22 21:36:58,817 - INFO - Table T58_InLineData: 6992/83180 rows (8.4%)
+2025-07-22 21:36:59,006 - INFO - Table T58_InLineData: 7992/83180 rows (9.6%)
+2025-07-22 21:36:59,185 - INFO - Table T58_InLineData: 8987/83180 rows (10.8%)
+2025-07-22 21:36:59,363 - INFO - Table T58_InLineData: 9987/83180 rows (12.0%)
+2025-07-22 21:36:59,545 - INFO - Table T58_InLineData: 10987/83180 rows (13.2%)
+2025-07-22 21:36:59,723 - INFO - Table T58_InLineData: 11987/83180 rows (14.4%)
+2025-07-22 21:36:59,904 - INFO - Table T58_InLineData: 12985/83180 rows (15.6%)
+2025-07-22 21:37:00,086 - INFO - Table T58_InLineData: 13983/83180 rows (16.8%)
+2025-07-22 21:37:00,264 - INFO - Table T58_InLineData: 14982/83180 rows (18.0%)
+2025-07-22 21:37:00,450 - INFO - Table T58_InLineData: 15982/83180 rows (19.2%)
+2025-07-22 21:37:00,635 - INFO - Table T58_InLineData: 16981/83180 rows (20.4%)
+2025-07-22 21:37:00,821 - INFO - Table T58_InLineData: 17980/83180 rows (21.6%)
+2025-07-22 21:37:01,004 - INFO - Table T58_InLineData: 18980/83180 rows (22.8%)
+2025-07-22 21:37:01,187 - INFO - Table T58_InLineData: 19979/83180 rows (24.0%)
+2025-07-22 21:37:01,371 - INFO - Table T58_InLineData: 20979/83180 rows (25.2%)
+2025-07-22 21:37:01,557 - INFO - Table T58_InLineData: 21978/83180 rows (26.4%)
+2025-07-22 21:37:01,742 - INFO - Table T58_InLineData: 22978/83180 rows (27.6%)
+2025-07-22 21:37:01,925 - INFO - Table T58_InLineData: 23977/83180 rows (28.8%)
+2025-07-22 21:37:02,109 - INFO - Table T58_InLineData: 24977/83180 rows (30.0%)
+2025-07-22 21:37:02,295 - INFO - Table T58_InLineData: 25977/83180 rows (31.2%)
+2025-07-22 21:37:02,483 - INFO - Table T58_InLineData: 26977/83180 rows (32.4%)
+2025-07-22 21:37:02,667 - INFO - Table T58_InLineData: 27977/83180 rows (33.6%)
+2025-07-22 21:37:02,854 - INFO - Table T58_InLineData: 28977/83180 rows (34.8%)
+2025-07-22 21:37:03,043 - INFO - Table T58_InLineData: 29977/83180 rows (36.0%)
+2025-07-22 21:37:03,229 - INFO - Table T58_InLineData: 30977/83180 rows (37.2%)
+2025-07-22 21:37:03,418 - INFO - Table T58_InLineData: 31976/83180 rows (38.4%)
+2025-07-22 21:37:03,606 - INFO - Table T58_InLineData: 32975/83180 rows (39.6%)
+2025-07-22 21:37:03,792 - INFO - Table T58_InLineData: 33975/83180 rows (40.8%)
+2025-07-22 21:37:03,982 - INFO - Table T58_InLineData: 34975/83180 rows (42.0%)
+2025-07-22 21:37:04,169 - INFO - Table T58_InLineData: 35975/83180 rows (43.2%)
+2025-07-22 21:37:04,363 - INFO - Table T58_InLineData: 36975/83180 rows (44.5%)
+2025-07-22 21:37:04,556 - INFO - Table T58_InLineData: 37975/83180 rows (45.7%)
+2025-07-22 21:37:04,756 - INFO - Table T58_InLineData: 38975/83180 rows (46.9%)
+2025-07-22 21:37:04,945 - INFO - Table T58_InLineData: 39974/83180 rows (48.1%)
+2025-07-22 21:37:05,137 - INFO - Table T58_InLineData: 40974/83180 rows (49.3%)
+2025-07-22 21:37:05,329 - INFO - Table T58_InLineData: 41974/83180 rows (50.5%)
+2025-07-22 21:37:05,519 - INFO - Table T58_InLineData: 42974/83180 rows (51.7%)
+2025-07-22 21:37:05,712 - INFO - Table T58_InLineData: 43974/83180 rows (52.9%)
+2025-07-22 21:37:05,905 - INFO - Table T58_InLineData: 44974/83180 rows (54.1%)
+2025-07-22 21:37:06,098 - INFO - Table T58_InLineData: 45974/83180 rows (55.3%)
+2025-07-22 21:37:06,295 - INFO - Table T58_InLineData: 46974/83180 rows (56.5%)
+2025-07-22 21:37:06,491 - INFO - Table T58_InLineData: 47974/83180 rows (57.7%)
+2025-07-22 21:37:06,689 - INFO - Table T58_InLineData: 48974/83180 rows (58.9%)
+2025-07-22 21:37:06,884 - INFO - Table T58_InLineData: 49974/83180 rows (60.1%)
+2025-07-22 21:37:07,078 - INFO - Table T58_InLineData: 50974/83180 rows (61.3%)
+2025-07-22 21:37:07,272 - INFO - Table T58_InLineData: 51974/83180 rows (62.5%)
+2025-07-22 21:37:07,466 - INFO - Table T58_InLineData: 52974/83180 rows (63.7%)
+2025-07-22 21:37:07,662 - INFO - Table T58_InLineData: 53974/83180 rows (64.9%)
+2025-07-22 21:37:07,858 - INFO - Table T58_InLineData: 54974/83180 rows (66.1%)
+2025-07-22 21:37:08,055 - INFO - Table T58_InLineData: 55974/83180 rows (67.3%)
+2025-07-22 21:37:08,252 - INFO - Table T58_InLineData: 56974/83180 rows (68.5%)
+2025-07-22 21:37:08,449 - INFO - Table T58_InLineData: 57974/83180 rows (69.7%)
+2025-07-22 21:37:08,648 - INFO - Table T58_InLineData: 58974/83180 rows (70.9%)
+2025-07-22 21:37:08,845 - INFO - Table T58_InLineData: 59974/83180 rows (72.1%)
+2025-07-22 21:37:09,042 - INFO - Table T58_InLineData: 60974/83180 rows (73.3%)
+2025-07-22 21:37:09,241 - INFO - Table T58_InLineData: 61974/83180 rows (74.5%)
+2025-07-22 21:37:09,442 - INFO - Table T58_InLineData: 62974/83180 rows (75.7%)
+2025-07-22 21:37:09,641 - INFO - Table T58_InLineData: 63974/83180 rows (76.9%)
+2025-07-22 21:37:09,840 - INFO - Table T58_InLineData: 64974/83180 rows (78.1%)
+2025-07-22 21:37:10,036 - INFO - Table T58_InLineData: 65974/83180 rows (79.3%)
+2025-07-22 21:37:10,237 - INFO - Table T58_InLineData: 66973/83180 rows (80.5%)
+2025-07-22 21:37:10,438 - INFO - Table T58_InLineData: 67972/83180 rows (81.7%)
+2025-07-22 21:37:10,636 - INFO - Table T58_InLineData: 68972/83180 rows (82.9%)
+2025-07-22 21:37:10,838 - INFO - Table T58_InLineData: 69972/83180 rows (84.1%)
+2025-07-22 21:37:11,038 - INFO - Table T58_InLineData: 70972/83180 rows (85.3%)
+2025-07-22 21:37:11,237 - INFO - Table T58_InLineData: 71972/83180 rows (86.5%)
+2025-07-22 21:37:11,438 - INFO - Table T58_InLineData: 72972/83180 rows (87.7%)
+2025-07-22 21:37:11,647 - INFO - Table T58_InLineData: 73972/83180 rows (88.9%)
+2025-07-22 21:37:11,846 - INFO - Table T58_InLineData: 74971/83180 rows (90.1%)
+2025-07-22 21:37:12,050 - INFO - Table T58_InLineData: 75970/83180 rows (91.3%)
+2025-07-22 21:37:12,255 - INFO - Table T58_InLineData: 76970/83180 rows (92.5%)
+2025-07-22 21:37:12,460 - INFO - Table T58_InLineData: 77969/83180 rows (93.7%)
+2025-07-22 21:37:12,664 - INFO - Table T58_InLineData: 78969/83180 rows (94.9%)
+2025-07-22 21:37:12,870 - INFO - Table T58_InLineData: 79968/83180 rows (96.1%)
+2025-07-22 21:37:13,074 - INFO - Table T58_InLineData: 80968/83180 rows (97.3%)
+2025-07-22 21:37:13,280 - INFO - Table T58_InLineData: 81968/83180 rows (98.5%)
+2025-07-22 21:37:13,488 - INFO - Table T58_InLineData: 82967/83180 rows (99.7%)
+2025-07-22 21:37:13,641 - INFO - Table T58_InLineData: 83147/83180 rows (100.0%)
+2025-07-22 21:37:13,641 - INFO - Table T58_InLineData: Sync completed (83147 rows)
+2025-07-22 21:37:13,641 - INFO - Processing table 4/4: T59_TransInLine
+2025-07-22 21:37:13,641 - INFO - Starting sync for table: T59_TransInLine
+2025-07-22 21:37:13,651 - INFO - Found 7 columns for table T59_TransInLine
+2025-07-22 21:37:13,653 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T59_TransInLine` (
+                `ID` INT AUTO_INCREMENT, `item_id` INT, `process_id` INT, `major_viet` VARCHAR(255), `major_jpn` VARCHAR(255), `process_viet` VARCHAR(255), `process_jpn` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-22 21:37:13,655 - INFO - Created table T59_TransInLine with 7 columns (full sync)
+2025-07-22 21:37:13,663 - INFO - Table T59_TransInLine: Syncing 3603 rows (full)
+2025-07-22 21:37:13,687 - INFO - Table T59_TransInLine: 210/3603 rows (5.8%)
+2025-07-22 21:37:13,812 - INFO - Table T59_TransInLine: 508/3603 rows (14.1%)
+2025-07-22 21:37:13,940 - INFO - Table T59_TransInLine: 1464/3603 rows (40.6%)
+2025-07-22 21:37:14,061 - INFO - Table T59_TransInLine: 1909/3603 rows (53.0%)
+2025-07-22 21:37:14,061 - INFO - Table T59_TransInLine: Sync completed (1909 rows)
+2025-07-22 21:37:14,061 - INFO - === Synchronization Summary ===
+2025-07-22 21:37:14,061 - INFO - Total tables: 4
+2025-07-22 21:37:14,061 - INFO - Successful: 4
+2025-07-22 21:37:14,061 - INFO - Failed: 0
+2025-07-22 21:37:14,061 - INFO - Duration: 0:00:29.518341
+2025-07-22 21:37:14,061 - INFO - MariaDB connection closed
+2025-07-24 08:02:59,700 - INFO - === Starting Database Synchronization ===
+2025-07-24 08:02:59,703 - INFO - Connected to MariaDB successfully
+2025-07-24 08:02:59,703 - INFO - Using configured tables: 4 tables
+2025-07-24 08:02:59,703 - INFO - Processing table 1/4: T50_InspectionData
+2025-07-24 08:02:59,703 - INFO - Starting sync for table: T50_InspectionData
+2025-07-24 08:02:59,716 - INFO - Found 72 columns for table T50_InspectionData
+2025-07-24 08:02:59,722 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T50_InspectionData` (
+                `ID` INT AUTO_INCREMENT, `inspection_type` INT, `line` INT, `date` DATETIME, `stye_no` INT, `color` VARCHAR(255), `size` VARCHAR(255), `qty` INT, `qty_ok` INT, `qty_recheck` INT, `qty_recheck_ok` INT, `qty_c` INT, `A01` INT, `A02` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `D05` INT, `D06` INT, `D07` INT, `D08` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `E08` INT, `E09` INT, `E10` INT, `E11` INT, `E12` INT, `E13` INT, `E14` INT, `E15` INT, `E16` INT, `E17` INT, `E18` INT, `E19` INT, `E20` INT, `E21` INT, `E22` INT, `E23` INT, `E24` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `F10` INT, `F11` INT, `F12` INT, `F13` INT, `F14` INT, `F15` INT, `G01` INT, `G02` INT, `G03` INT, `G04` INT, `H` INT, `comments` TEXT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-24 08:02:59,725 - INFO - Created table T50_InspectionData with 72 columns (full sync)
+2025-07-24 08:02:59,740 - INFO - Table T50_InspectionData: Syncing 46188 rows (full)
+2025-07-24 08:02:59,874 - INFO - Table T50_InspectionData: 294/46188 rows (0.6%)
+2025-07-24 08:03:00,105 - INFO - Table T50_InspectionData: 586/46188 rows (1.3%)
+2025-07-24 08:03:00,343 - INFO - Table T50_InspectionData: 905/46188 rows (2.0%)
+2025-07-24 08:03:00,574 - INFO - Table T50_InspectionData: 1141/46188 rows (2.5%)
+2025-07-24 08:03:00,819 - INFO - Table T50_InspectionData: 1372/46188 rows (3.0%)
+2025-07-24 08:03:01,052 - INFO - Table T50_InspectionData: 1633/46188 rows (3.5%)
+2025-07-24 08:03:01,280 - INFO - Table T50_InspectionData: 1794/46188 rows (3.9%)
+2025-07-24 08:03:01,514 - INFO - Table T50_InspectionData: 2016/46188 rows (4.4%)
+2025-07-24 08:03:01,750 - INFO - Table T50_InspectionData: 2268/46188 rows (4.9%)
+2025-07-24 08:03:01,988 - INFO - Table T50_InspectionData: 2494/46188 rows (5.4%)
+2025-07-24 08:03:02,232 - INFO - Table T50_InspectionData: 2793/46188 rows (6.0%)
+2025-07-24 08:03:02,472 - INFO - Table T50_InspectionData: 3085/46188 rows (6.7%)
+2025-07-24 08:03:02,711 - INFO - Table T50_InspectionData: 3340/46188 rows (7.2%)
+2025-07-24 08:03:02,955 - INFO - Table T50_InspectionData: 3590/46188 rows (7.8%)
+2025-07-24 08:03:03,202 - INFO - Table T50_InspectionData: 3880/46188 rows (8.4%)
+2025-07-24 08:03:03,505 - INFO - Table T50_InspectionData: 4866/46188 rows (10.5%)
+2025-07-24 08:03:03,801 - INFO - Table T50_InspectionData: 5866/46188 rows (12.7%)
+2025-07-24 08:03:04,104 - INFO - Table T50_InspectionData: 6864/46188 rows (14.9%)
+2025-07-24 08:03:04,407 - INFO - Table T50_InspectionData: 7864/46188 rows (17.0%)
+2025-07-24 08:03:04,649 - INFO - Table T50_InspectionData: 8864/46188 rows (19.2%)
+2025-07-24 08:03:04,882 - INFO - Table T50_InspectionData: 9864/46188 rows (21.4%)
+2025-07-24 08:03:05,116 - INFO - Table T50_InspectionData: 10864/46188 rows (23.5%)
+2025-07-24 08:03:05,354 - INFO - Table T50_InspectionData: 11864/46188 rows (25.7%)
+2025-07-24 08:03:05,609 - INFO - Table T50_InspectionData: 12864/46188 rows (27.9%)
+2025-07-24 08:03:05,891 - INFO - Table T50_InspectionData: 13864/46188 rows (30.0%)
+2025-07-24 08:03:06,164 - INFO - Table T50_InspectionData: 14864/46188 rows (32.2%)
+2025-07-24 08:03:06,440 - INFO - Table T50_InspectionData: 15864/46188 rows (34.3%)
+2025-07-24 08:03:06,710 - INFO - Table T50_InspectionData: 16864/46188 rows (36.5%)
+2025-07-24 08:03:07,022 - INFO - Table T50_InspectionData: 17864/46188 rows (38.7%)
+2025-07-24 08:03:07,345 - INFO - Table T50_InspectionData: 18864/46188 rows (40.8%)
+2025-07-24 08:03:07,669 - INFO - Table T50_InspectionData: 19864/46188 rows (43.0%)
+2025-07-24 08:03:07,989 - INFO - Table T50_InspectionData: 20864/46188 rows (45.2%)
+2025-07-24 08:03:08,313 - INFO - Table T50_InspectionData: 21864/46188 rows (47.3%)
+2025-07-24 08:03:08,637 - INFO - Table T50_InspectionData: 22864/46188 rows (49.5%)
+2025-07-24 08:03:08,963 - INFO - Table T50_InspectionData: 23864/46188 rows (51.7%)
+2025-07-24 08:03:09,291 - INFO - Table T50_InspectionData: 24861/46188 rows (53.8%)
+2025-07-24 08:03:09,619 - INFO - Table T50_InspectionData: 25861/46188 rows (56.0%)
+2025-07-24 08:03:09,949 - INFO - Table T50_InspectionData: 26861/46188 rows (58.2%)
+2025-07-24 08:03:10,281 - INFO - Table T50_InspectionData: 27861/46188 rows (60.3%)
+2025-07-24 08:03:10,619 - INFO - Table T50_InspectionData: 28861/46188 rows (62.5%)
+2025-07-24 08:03:10,956 - INFO - Table T50_InspectionData: 29861/46188 rows (64.7%)
+2025-07-24 08:03:11,294 - INFO - Table T50_InspectionData: 30861/46188 rows (66.8%)
+2025-07-24 08:03:11,636 - INFO - Table T50_InspectionData: 31861/46188 rows (69.0%)
+2025-07-24 08:03:11,976 - INFO - Table T50_InspectionData: 32860/46188 rows (71.1%)
+2025-07-24 08:03:12,317 - INFO - Table T50_InspectionData: 33860/46188 rows (73.3%)
+2025-07-24 08:03:12,657 - INFO - Table T50_InspectionData: 34860/46188 rows (75.5%)
+2025-07-24 08:03:12,866 - INFO - Table T50_InspectionData: 35048/46188 rows (75.9%)
+2025-07-24 08:03:12,866 - INFO - Table T50_InspectionData: Sync completed (35048 rows)
+2025-07-24 08:03:12,866 - INFO - Processing table 2/4: T52_ProductItem
+2025-07-24 08:03:12,866 - INFO - Starting sync for table: T52_ProductItem
+2025-07-24 08:03:12,876 - INFO - Found 18 columns for table T52_ProductItem
+2025-07-24 08:03:12,878 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T52_ProductItem` (
+                `ID` INT AUTO_INCREMENT, `style_no` INT, `style_text` VARCHAR(255), `brand` VARCHAR(255), `description` VARCHAR(255), `X18` INT, `X19` INT, `X121` INT, `X122` INT, `X123` INT, `X124` INT, `X125` INT, `X126` INT, `X127` INT, `X128` INT, `X129` INT, `X20` VARCHAR(255), `X21` INT, PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-24 08:03:12,880 - INFO - Created table T52_ProductItem with 18 columns (full sync)
+2025-07-24 08:03:12,889 - INFO - Table T52_ProductItem: Syncing 318 rows (full)
+2025-07-24 08:03:12,913 - INFO - Table T52_ProductItem: 317/318 rows (99.7%)
+2025-07-24 08:03:12,913 - INFO - Table T52_ProductItem: Sync completed (317 rows)
+2025-07-24 08:03:12,913 - INFO - Processing table 3/4: T58_InLineData
+2025-07-24 08:03:12,913 - INFO - Starting sync for table: T58_InLineData
+2025-07-24 08:03:12,923 - INFO - Found 41 columns for table T58_InLineData
+2025-07-24 08:03:12,925 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T58_InLineData` (
+                `ID` INT AUTO_INCREMENT, `line` INT, `date` DATETIME, `process_no` INT, `color` VARCHAR(255), `qty` INT, `qty_ok` INT, `item_id` INT, `A01` INT, `A02` INT, `A03` INT, `B01` INT, `B02` INT, `B03` INT, `C01` INT, `C02` INT, `D01` INT, `D02` INT, `D03` INT, `D04` INT, `E01` INT, `E02` INT, `E03` INT, `E04` INT, `E05` INT, `E06` INT, `E07` INT, `F01` INT, `F02` INT, `F03` INT, `F04` INT, `F05` INT, `F06` INT, `F07` INT, `F08` INT, `F09` INT, `G01` INT, `G02` INT, `G03` INT, `H` INT, `comments` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-24 08:03:12,927 - INFO - Created table T58_InLineData with 41 columns (full sync)
+2025-07-24 08:03:12,944 - INFO - Table T58_InLineData: Syncing 83414 rows (full)
+2025-07-24 08:03:13,022 - INFO - Table T58_InLineData: 1000/83414 rows (1.2%)
+2025-07-24 08:03:13,205 - INFO - Table T58_InLineData: 1999/83414 rows (2.4%)
+2025-07-24 08:03:13,384 - INFO - Table T58_InLineData: 2997/83414 rows (3.6%)
+2025-07-24 08:03:13,565 - INFO - Table T58_InLineData: 3996/83414 rows (4.8%)
+2025-07-24 08:03:13,745 - INFO - Table T58_InLineData: 4994/83414 rows (6.0%)
+2025-07-24 08:03:13,925 - INFO - Table T58_InLineData: 5994/83414 rows (7.2%)
+2025-07-24 08:03:14,106 - INFO - Table T58_InLineData: 6992/83414 rows (8.4%)
+2025-07-24 08:03:14,293 - INFO - Table T58_InLineData: 7992/83414 rows (9.6%)
+2025-07-24 08:03:14,472 - INFO - Table T58_InLineData: 8987/83414 rows (10.8%)
+2025-07-24 08:03:14,651 - INFO - Table T58_InLineData: 9987/83414 rows (12.0%)
+2025-07-24 08:03:14,832 - INFO - Table T58_InLineData: 10987/83414 rows (13.2%)
+2025-07-24 08:03:15,012 - INFO - Table T58_InLineData: 11987/83414 rows (14.4%)
+2025-07-24 08:03:15,191 - INFO - Table T58_InLineData: 12985/83414 rows (15.6%)
+2025-07-24 08:03:15,372 - INFO - Table T58_InLineData: 13983/83414 rows (16.8%)
+2025-07-24 08:03:15,555 - INFO - Table T58_InLineData: 14982/83414 rows (18.0%)
+2025-07-24 08:03:15,737 - INFO - Table T58_InLineData: 15982/83414 rows (19.2%)
+2025-07-24 08:03:15,919 - INFO - Table T58_InLineData: 16981/83414 rows (20.4%)
+2025-07-24 08:03:16,101 - INFO - Table T58_InLineData: 17980/83414 rows (21.6%)
+2025-07-24 08:03:16,285 - INFO - Table T58_InLineData: 18980/83414 rows (22.8%)
+2025-07-24 08:03:16,469 - INFO - Table T58_InLineData: 19979/83414 rows (24.0%)
+2025-07-24 08:03:16,656 - INFO - Table T58_InLineData: 20979/83414 rows (25.2%)
+2025-07-24 08:03:16,842 - INFO - Table T58_InLineData: 21978/83414 rows (26.3%)
+2025-07-24 08:03:17,028 - INFO - Table T58_InLineData: 22978/83414 rows (27.5%)
+2025-07-24 08:03:17,215 - INFO - Table T58_InLineData: 23977/83414 rows (28.7%)
+2025-07-24 08:03:17,400 - INFO - Table T58_InLineData: 24977/83414 rows (29.9%)
+2025-07-24 08:03:17,586 - INFO - Table T58_InLineData: 25977/83414 rows (31.1%)
+2025-07-24 08:03:17,774 - INFO - Table T58_InLineData: 26977/83414 rows (32.3%)
+2025-07-24 08:03:17,959 - INFO - Table T58_InLineData: 27977/83414 rows (33.5%)
+2025-07-24 08:03:18,147 - INFO - Table T58_InLineData: 28977/83414 rows (34.7%)
+2025-07-24 08:03:18,335 - INFO - Table T58_InLineData: 29977/83414 rows (35.9%)
+2025-07-24 08:03:18,525 - INFO - Table T58_InLineData: 30977/83414 rows (37.1%)
+2025-07-24 08:03:18,714 - INFO - Table T58_InLineData: 31976/83414 rows (38.3%)
+2025-07-24 08:03:18,904 - INFO - Table T58_InLineData: 32975/83414 rows (39.5%)
+2025-07-24 08:03:19,093 - INFO - Table T58_InLineData: 33975/83414 rows (40.7%)
+2025-07-24 08:03:19,281 - INFO - Table T58_InLineData: 34975/83414 rows (41.9%)
+2025-07-24 08:03:19,470 - INFO - Table T58_InLineData: 35975/83414 rows (43.1%)
+2025-07-24 08:03:19,662 - INFO - Table T58_InLineData: 36975/83414 rows (44.3%)
+2025-07-24 08:03:19,854 - INFO - Table T58_InLineData: 37975/83414 rows (45.5%)
+2025-07-24 08:03:20,045 - INFO - Table T58_InLineData: 38975/83414 rows (46.7%)
+2025-07-24 08:03:20,235 - INFO - Table T58_InLineData: 39974/83414 rows (47.9%)
+2025-07-24 08:03:20,425 - INFO - Table T58_InLineData: 40974/83414 rows (49.1%)
+2025-07-24 08:03:20,618 - INFO - Table T58_InLineData: 41974/83414 rows (50.3%)
+2025-07-24 08:03:20,807 - INFO - Table T58_InLineData: 42974/83414 rows (51.5%)
+2025-07-24 08:03:21,000 - INFO - Table T58_InLineData: 43974/83414 rows (52.7%)
+2025-07-24 08:03:21,193 - INFO - Table T58_InLineData: 44974/83414 rows (53.9%)
+2025-07-24 08:03:21,384 - INFO - Table T58_InLineData: 45974/83414 rows (55.1%)
+2025-07-24 08:03:21,579 - INFO - Table T58_InLineData: 46974/83414 rows (56.3%)
+2025-07-24 08:03:21,774 - INFO - Table T58_InLineData: 47974/83414 rows (57.5%)
+2025-07-24 08:03:21,967 - INFO - Table T58_InLineData: 48974/83414 rows (58.7%)
+2025-07-24 08:03:22,161 - INFO - Table T58_InLineData: 49974/83414 rows (59.9%)
+2025-07-24 08:03:22,356 - INFO - Table T58_InLineData: 50974/83414 rows (61.1%)
+2025-07-24 08:03:22,551 - INFO - Table T58_InLineData: 51974/83414 rows (62.3%)
+2025-07-24 08:03:22,746 - INFO - Table T58_InLineData: 52974/83414 rows (63.5%)
+2025-07-24 08:03:22,939 - INFO - Table T58_InLineData: 53974/83414 rows (64.7%)
+2025-07-24 08:03:23,133 - INFO - Table T58_InLineData: 54974/83414 rows (65.9%)
+2025-07-24 08:03:23,330 - INFO - Table T58_InLineData: 55974/83414 rows (67.1%)
+2025-07-24 08:03:23,525 - INFO - Table T58_InLineData: 56974/83414 rows (68.3%)
+2025-07-24 08:03:23,722 - INFO - Table T58_InLineData: 57974/83414 rows (69.5%)
+2025-07-24 08:03:23,919 - INFO - Table T58_InLineData: 58974/83414 rows (70.7%)
+2025-07-24 08:03:24,115 - INFO - Table T58_InLineData: 59974/83414 rows (71.9%)
+2025-07-24 08:03:24,312 - INFO - Table T58_InLineData: 60974/83414 rows (73.1%)
+2025-07-24 08:03:24,513 - INFO - Table T58_InLineData: 61974/83414 rows (74.3%)
+2025-07-24 08:03:24,711 - INFO - Table T58_InLineData: 62974/83414 rows (75.5%)
+2025-07-24 08:03:24,910 - INFO - Table T58_InLineData: 63974/83414 rows (76.7%)
+2025-07-24 08:03:25,110 - INFO - Table T58_InLineData: 64974/83414 rows (77.9%)
+2025-07-24 08:03:25,309 - INFO - Table T58_InLineData: 65974/83414 rows (79.1%)
+2025-07-24 08:03:25,512 - INFO - Table T58_InLineData: 66973/83414 rows (80.3%)
+2025-07-24 08:03:25,712 - INFO - Table T58_InLineData: 67972/83414 rows (81.5%)
+2025-07-24 08:03:25,916 - INFO - Table T58_InLineData: 68972/83414 rows (82.7%)
+2025-07-24 08:03:26,119 - INFO - Table T58_InLineData: 69972/83414 rows (83.9%)
+2025-07-24 08:03:26,322 - INFO - Table T58_InLineData: 70972/83414 rows (85.1%)
+2025-07-24 08:03:26,527 - INFO - Table T58_InLineData: 71972/83414 rows (86.3%)
+2025-07-24 08:03:26,728 - INFO - Table T58_InLineData: 72972/83414 rows (87.5%)
+2025-07-24 08:03:26,938 - INFO - Table T58_InLineData: 73972/83414 rows (88.7%)
+2025-07-24 08:03:27,140 - INFO - Table T58_InLineData: 74971/83414 rows (89.9%)
+2025-07-24 08:03:27,344 - INFO - Table T58_InLineData: 75970/83414 rows (91.1%)
+2025-07-24 08:03:27,548 - INFO - Table T58_InLineData: 76970/83414 rows (92.3%)
+2025-07-24 08:03:27,754 - INFO - Table T58_InLineData: 77969/83414 rows (93.5%)
+2025-07-24 08:03:27,961 - INFO - Table T58_InLineData: 78969/83414 rows (94.7%)
+2025-07-24 08:03:28,167 - INFO - Table T58_InLineData: 79968/83414 rows (95.9%)
+2025-07-24 08:03:28,375 - INFO - Table T58_InLineData: 80968/83414 rows (97.1%)
+2025-07-24 08:03:28,585 - INFO - Table T58_InLineData: 81968/83414 rows (98.3%)
+2025-07-24 08:03:28,793 - INFO - Table T58_InLineData: 82967/83414 rows (99.5%)
+2025-07-24 08:03:28,962 - INFO - Table T58_InLineData: 83381/83414 rows (100.0%)
+2025-07-24 08:03:28,962 - INFO - Table T58_InLineData: Sync completed (83381 rows)
+2025-07-24 08:03:28,962 - INFO - Processing table 4/4: T59_TransInLine
+2025-07-24 08:03:28,962 - INFO - Starting sync for table: T59_TransInLine
+2025-07-24 08:03:28,972 - INFO - Found 7 columns for table T59_TransInLine
+2025-07-24 08:03:28,974 - INFO - CREATE TABLE SQL: 
+            CREATE TABLE `T59_TransInLine` (
+                `ID` INT AUTO_INCREMENT, `item_id` INT, `process_id` INT, `major_viet` VARCHAR(255), `major_jpn` VARCHAR(255), `process_viet` VARCHAR(255), `process_jpn` VARCHAR(255), PRIMARY KEY (`ID`)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
+            
+2025-07-24 08:03:28,976 - INFO - Created table T59_TransInLine with 7 columns (full sync)
+2025-07-24 08:03:28,985 - INFO - Table T59_TransInLine: Syncing 3603 rows (full)
+2025-07-24 08:03:29,010 - INFO - Table T59_TransInLine: 210/3603 rows (5.8%)
+2025-07-24 08:03:29,135 - INFO - Table T59_TransInLine: 508/3603 rows (14.1%)
+2025-07-24 08:03:29,263 - INFO - Table T59_TransInLine: 1464/3603 rows (40.6%)
+2025-07-24 08:03:29,384 - INFO - Table T59_TransInLine: 1909/3603 rows (53.0%)
+2025-07-24 08:03:29,384 - INFO - Table T59_TransInLine: Sync completed (1909 rows)
+2025-07-24 08:03:29,384 - INFO - === Synchronization Summary ===
+2025-07-24 08:03:29,384 - INFO - Total tables: 4
+2025-07-24 08:03:29,384 - INFO - Successful: 4
+2025-07-24 08:03:29,384 - INFO - Failed: 0
+2025-07-24 08:03:29,384 - INFO - Duration: 0:00:29.684082
+2025-07-24 08:03:29,384 - INFO - MariaDB connection closed

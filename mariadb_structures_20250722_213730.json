@@ -1,0 +1,1698 @@
+{
+  "export_info": {
+    "timestamp": "2025-07-22T21:37:30.459870",
+    "database": "_4655208665010c57",
+    "total_tables": 4,
+    "exporter_version": "1.0"
+  },
+  "tables": {
+    "T50_InspectionData": {
+      "table_name": "T50_InspectionData",
+      "table_info": {
+        "comment": "",
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci",
+        "created": "2025-07-22T21:36:44",
+        "updated": "2025-07-22T21:36:57",
+        "row_count": 34998,
+        "size_mb": 10.52
+      },
+      "columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_DEFAULT": null,
+          "COLUMN_KEY": "PRI",
+          "EXTRA": "auto_increment",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 1
+        },
+        {
+          "COLUMN_NAME": "inspection_type",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 2
+        },
+        {
+          "COLUMN_NAME": "line",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 3
+        },
+        {
+          "COLUMN_NAME": "date",
+          "DATA_TYPE": "datetime",
+          "COLUMN_TYPE": "datetime",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 4
+        },
+        {
+          "COLUMN_NAME": "stye_no",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 5
+        },
+        {
+          "COLUMN_NAME": "color",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 6
+        },
+        {
+          "COLUMN_NAME": "size",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 7
+        },
+        {
+          "COLUMN_NAME": "qty",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 8
+        },
+        {
+          "COLUMN_NAME": "qty_ok",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 9
+        },
+        {
+          "COLUMN_NAME": "qty_recheck",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 10
+        },
+        {
+          "COLUMN_NAME": "qty_recheck_ok",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 11
+        },
+        {
+          "COLUMN_NAME": "qty_c",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 12
+        },
+        {
+          "COLUMN_NAME": "A01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 13
+        },
+        {
+          "COLUMN_NAME": "A02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 14
+        },
+        {
+          "COLUMN_NAME": "B01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 15
+        },
+        {
+          "COLUMN_NAME": "B02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 16
+        },
+        {
+          "COLUMN_NAME": "B03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 17
+        },
+        {
+          "COLUMN_NAME": "C01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 18
+        },
+        {
+          "COLUMN_NAME": "C02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 19
+        },
+        {
+          "COLUMN_NAME": "D01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 20
+        },
+        {
+          "COLUMN_NAME": "D02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 21
+        },
+        {
+          "COLUMN_NAME": "D03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 22
+        },
+        {
+          "COLUMN_NAME": "D04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 23
+        },
+        {
+          "COLUMN_NAME": "D05",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 24
+        },
+        {
+          "COLUMN_NAME": "D06",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 25
+        },
+        {
+          "COLUMN_NAME": "D07",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 26
+        },
+        {
+          "COLUMN_NAME": "D08",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 27
+        },
+        {
+          "COLUMN_NAME": "E01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 28
+        },
+        {
+          "COLUMN_NAME": "E02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 29
+        },
+        {
+          "COLUMN_NAME": "E03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 30
+        },
+        {
+          "COLUMN_NAME": "E04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 31
+        },
+        {
+          "COLUMN_NAME": "E05",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 32
+        },
+        {
+          "COLUMN_NAME": "E06",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 33
+        },
+        {
+          "COLUMN_NAME": "E07",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 34
+        },
+        {
+          "COLUMN_NAME": "E08",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 35
+        },
+        {
+          "COLUMN_NAME": "E09",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 36
+        },
+        {
+          "COLUMN_NAME": "E10",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 37
+        },
+        {
+          "COLUMN_NAME": "E11",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 38
+        },
+        {
+          "COLUMN_NAME": "E12",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 39
+        },
+        {
+          "COLUMN_NAME": "E13",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 40
+        },
+        {
+          "COLUMN_NAME": "E14",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 41
+        },
+        {
+          "COLUMN_NAME": "E15",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 42
+        },
+        {
+          "COLUMN_NAME": "E16",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 43
+        },
+        {
+          "COLUMN_NAME": "E17",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 44
+        },
+        {
+          "COLUMN_NAME": "E18",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 45
+        },
+        {
+          "COLUMN_NAME": "E19",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 46
+        },
+        {
+          "COLUMN_NAME": "E20",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 47
+        },
+        {
+          "COLUMN_NAME": "E21",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 48
+        },
+        {
+          "COLUMN_NAME": "E22",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 49
+        },
+        {
+          "COLUMN_NAME": "E23",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 50
+        },
+        {
+          "COLUMN_NAME": "E24",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 51
+        },
+        {
+          "COLUMN_NAME": "F01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 52
+        },
+        {
+          "COLUMN_NAME": "F02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 53
+        },
+        {
+          "COLUMN_NAME": "F03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 54
+        },
+        {
+          "COLUMN_NAME": "F04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 55
+        },
+        {
+          "COLUMN_NAME": "F05",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 56
+        },
+        {
+          "COLUMN_NAME": "F06",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 57
+        },
+        {
+          "COLUMN_NAME": "F07",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 58
+        },
+        {
+          "COLUMN_NAME": "F08",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 59
+        },
+        {
+          "COLUMN_NAME": "F09",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 60
+        },
+        {
+          "COLUMN_NAME": "F10",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 61
+        },
+        {
+          "COLUMN_NAME": "F11",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 62
+        },
+        {
+          "COLUMN_NAME": "F12",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 63
+        },
+        {
+          "COLUMN_NAME": "F13",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 64
+        },
+        {
+          "COLUMN_NAME": "F14",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 65
+        },
+        {
+          "COLUMN_NAME": "F15",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 66
+        },
+        {
+          "COLUMN_NAME": "G01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 67
+        },
+        {
+          "COLUMN_NAME": "G02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 68
+        },
+        {
+          "COLUMN_NAME": "G03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 69
+        },
+        {
+          "COLUMN_NAME": "G04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 70
+        },
+        {
+          "COLUMN_NAME": "H",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 71
+        },
+        {
+          "COLUMN_NAME": "comments",
+          "DATA_TYPE": "text",
+          "COLUMN_TYPE": "text",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 72
+        }
+      ],
+      "indexes": {
+        "PRIMARY": {
+          "unique": true,
+          "type": "BTREE",
+          "columns": [
+            {
+              "column": "ID",
+              "sequence": 1
+            }
+          ]
+        }
+      },
+      "sync_config": {
+        "sync_mode": "full",
+        "timestamp_column": "X02",
+        "primary_key": "ID",
+        "column_mapping": {
+          "2nd": "inspection_type",
+          "X01": "line",
+          "X02": "date",
+          "X03": "stye_no",
+          "X04": "color",
+          "X05": "size",
+          "X06": "qty",
+          "X07": "qty_ok",
+          "X08": "qty_recheck",
+          "X09": "qty_recheck_ok",
+          "X10": "qty_c",
+          "XC": "comments"
+        },
+        "condition": null,
+        "columns_filter": null
+      }
+    },
+    "T52_ProductItem": {
+      "table_name": "T52_ProductItem",
+      "table_info": {
+        "comment": "",
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci",
+        "created": "2025-07-22T21:36:57",
+        "updated": "2025-07-22T21:36:57",
+        "row_count": 314,
+        "size_mb": 0.06
+      },
+      "columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_DEFAULT": null,
+          "COLUMN_KEY": "PRI",
+          "EXTRA": "auto_increment",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 1
+        },
+        {
+          "COLUMN_NAME": "style_no",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 2
+        },
+        {
+          "COLUMN_NAME": "style_text",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 3
+        },
+        {
+          "COLUMN_NAME": "brand",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 4
+        },
+        {
+          "COLUMN_NAME": "description",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 5
+        },
+        {
+          "COLUMN_NAME": "X18",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 6
+        },
+        {
+          "COLUMN_NAME": "X19",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 7
+        },
+        {
+          "COLUMN_NAME": "X121",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 8
+        },
+        {
+          "COLUMN_NAME": "X122",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 9
+        },
+        {
+          "COLUMN_NAME": "X123",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 10
+        },
+        {
+          "COLUMN_NAME": "X124",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 11
+        },
+        {
+          "COLUMN_NAME": "X125",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 12
+        },
+        {
+          "COLUMN_NAME": "X126",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 13
+        },
+        {
+          "COLUMN_NAME": "X127",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 14
+        },
+        {
+          "COLUMN_NAME": "X128",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 15
+        },
+        {
+          "COLUMN_NAME": "X129",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 16
+        },
+        {
+          "COLUMN_NAME": "X20",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 17
+        },
+        {
+          "COLUMN_NAME": "X21",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 18
+        }
+      ],
+      "indexes": {
+        "PRIMARY": {
+          "unique": true,
+          "type": "BTREE",
+          "columns": [
+            {
+              "column": "ID",
+              "sequence": 1
+            }
+          ]
+        }
+      },
+      "sync_config": {
+        "sync_mode": "full",
+        "timestamp_column": null,
+        "primary_key": "ID",
+        "column_mapping": {
+          "X14": "style_no",
+          "X15": "style_text",
+          "X16": "brand",
+          "X17": "description"
+        },
+        "condition": null,
+        "columns_filter": null
+      }
+    },
+    "T58_InLineData": {
+      "table_name": "T58_InLineData",
+      "table_info": {
+        "comment": "",
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci",
+        "created": "2025-07-22T21:36:57",
+        "updated": "2025-07-22T21:37:13",
+        "row_count": 83147,
+        "size_mb": 6.52
+      },
+      "columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_DEFAULT": null,
+          "COLUMN_KEY": "PRI",
+          "EXTRA": "auto_increment",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 1
+        },
+        {
+          "COLUMN_NAME": "line",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 2
+        },
+        {
+          "COLUMN_NAME": "date",
+          "DATA_TYPE": "datetime",
+          "COLUMN_TYPE": "datetime",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 3
+        },
+        {
+          "COLUMN_NAME": "process_no",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 4
+        },
+        {
+          "COLUMN_NAME": "color",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 5
+        },
+        {
+          "COLUMN_NAME": "qty",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 6
+        },
+        {
+          "COLUMN_NAME": "qty_ok",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 7
+        },
+        {
+          "COLUMN_NAME": "item_id",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 8
+        },
+        {
+          "COLUMN_NAME": "A01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 9
+        },
+        {
+          "COLUMN_NAME": "A02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 10
+        },
+        {
+          "COLUMN_NAME": "A03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 11
+        },
+        {
+          "COLUMN_NAME": "B01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 12
+        },
+        {
+          "COLUMN_NAME": "B02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 13
+        },
+        {
+          "COLUMN_NAME": "B03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 14
+        },
+        {
+          "COLUMN_NAME": "C01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 15
+        },
+        {
+          "COLUMN_NAME": "C02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 16
+        },
+        {
+          "COLUMN_NAME": "D01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 17
+        },
+        {
+          "COLUMN_NAME": "D02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 18
+        },
+        {
+          "COLUMN_NAME": "D03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 19
+        },
+        {
+          "COLUMN_NAME": "D04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 20
+        },
+        {
+          "COLUMN_NAME": "E01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 21
+        },
+        {
+          "COLUMN_NAME": "E02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 22
+        },
+        {
+          "COLUMN_NAME": "E03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 23
+        },
+        {
+          "COLUMN_NAME": "E04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 24
+        },
+        {
+          "COLUMN_NAME": "E05",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 25
+        },
+        {
+          "COLUMN_NAME": "E06",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 26
+        },
+        {
+          "COLUMN_NAME": "E07",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 27
+        },
+        {
+          "COLUMN_NAME": "F01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 28
+        },
+        {
+          "COLUMN_NAME": "F02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 29
+        },
+        {
+          "COLUMN_NAME": "F03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 30
+        },
+        {
+          "COLUMN_NAME": "F04",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 31
+        },
+        {
+          "COLUMN_NAME": "F05",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 32
+        },
+        {
+          "COLUMN_NAME": "F06",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 33
+        },
+        {
+          "COLUMN_NAME": "F07",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 34
+        },
+        {
+          "COLUMN_NAME": "F08",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 35
+        },
+        {
+          "COLUMN_NAME": "F09",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 36
+        },
+        {
+          "COLUMN_NAME": "G01",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 37
+        },
+        {
+          "COLUMN_NAME": "G02",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 38
+        },
+        {
+          "COLUMN_NAME": "G03",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 39
+        },
+        {
+          "COLUMN_NAME": "H",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 40
+        },
+        {
+          "COLUMN_NAME": "comments",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 41
+        }
+      ],
+      "indexes": {
+        "PRIMARY": {
+          "unique": true,
+          "type": "BTREE",
+          "columns": [
+            {
+              "column": "ID",
+              "sequence": 1
+            }
+          ]
+        }
+      },
+      "sync_config": {
+        "sync_mode": "full",
+        "timestamp_column": "X02",
+        "primary_key": "ID",
+        "column_mapping": {
+          "X01": "line",
+          "X02": "date",
+          "X03": "process_no",
+          "X04": "color",
+          "X05": "qty",
+          "X06": "qty_ok",
+          "X08": "item_id",
+          "X07": "comments"
+        },
+        "condition": null,
+        "columns_filter": null
+      }
+    },
+    "T59_TransInLine": {
+      "table_name": "T59_TransInLine",
+      "table_info": {
+        "comment": "",
+        "engine": "InnoDB",
+        "collation": "utf8mb4_unicode_ci",
+        "created": "2025-07-22T21:37:13",
+        "updated": "2025-07-22T21:37:14",
+        "row_count": 1909,
+        "size_mb": 0.16
+      },
+      "columns": [
+        {
+          "COLUMN_NAME": "ID",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "NO",
+          "COLUMN_DEFAULT": null,
+          "COLUMN_KEY": "PRI",
+          "EXTRA": "auto_increment",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 1
+        },
+        {
+          "COLUMN_NAME": "item_id",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 2
+        },
+        {
+          "COLUMN_NAME": "process_id",
+          "DATA_TYPE": "int",
+          "COLUMN_TYPE": "int(11)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 3
+        },
+        {
+          "COLUMN_NAME": "major_viet",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 4
+        },
+        {
+          "COLUMN_NAME": "major_jpn",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 5
+        },
+        {
+          "COLUMN_NAME": "process_viet",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 6
+        },
+        {
+          "COLUMN_NAME": "process_jpn",
+          "DATA_TYPE": "varchar",
+          "COLUMN_TYPE": "varchar(255)",
+          "IS_NULLABLE": "YES",
+          "COLUMN_DEFAULT": "NULL",
+          "COLUMN_KEY": "",
+          "EXTRA": "",
+          "COLUMN_COMMENT": "",
+          "ORDINAL_POSITION": 7
+        }
+      ],
+      "indexes": {
+        "PRIMARY": {
+          "unique": true,
+          "type": "BTREE",
+          "columns": [
+            {
+              "column": "ID",
+              "sequence": 1
+            }
+          ]
+        }
+      },
+      "sync_config": {
+        "sync_mode": "full",
+        "timestamp_column": null,
+        "primary_key": "ID",
+        "column_mapping": {
+          "item": "item_id",
+          "Process": "process_id",
+          "MajorViet": "major_viet",
+          "MajorJpn": "major_jpn",
+          "ProViet": "process_viet",
+          "ProJpn": "process_jpn"
+        },
+        "condition": null,
+        "columns_filter": null
+      }
+    }
+  }
+}
