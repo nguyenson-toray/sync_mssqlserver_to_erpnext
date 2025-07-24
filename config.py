@@ -176,7 +176,7 @@ class DatabaseConfig:
                 'sync': True,
                 'columns': None,  # None means all columns
                 'condition': None, #"X02 > '2025-03-31'",  # X02 is the datetime column
-                'sync_mode': 'full',  # 'full' or 'incremental'
+                'sync_mode': 'incremental',  # 'full' or 'incremental'
                 'timestamp_column': 'X02',  # Column for incremental sync tracking
                 'primary_key': 'ID',  # Primary key for upsert operations
                 'column_mapping': {  # Map MSSQL columns to MariaDB columns
@@ -190,7 +190,7 @@ class DatabaseConfig:
                 'sync': True,
                 'columns': None,  # None means all columns
                 'condition': None, #"X02 > '2025-03-31'",  # X02 is the datetime column
-                'sync_mode': 'full',  # 'full' or 'incremental'
+                'sync_mode': 'incremental',  # 'full' or 'incremental'
                 'timestamp_column': 'X02',  # Column for incremental sync tracking
                 'primary_key': 'ID',  # Primary key for upsert operations
                 'column_mapping': {  # Map MSSQL columns to MariaDB columns
@@ -214,7 +214,7 @@ class DatabaseConfig:
                 'sync': True,
                 'columns': None,  # None means all columns
                 'condition': None, #"X02 > '2025-03-31'",  # X02 is the datetime column
-                'sync_mode': 'full',  # 'full' or 'incremental'
+                'sync_mode': 'incremental',  # 'full' or 'incremental'
                 'timestamp_column': None ,  # Column for incremental sync tracking
                 'primary_key': 'ID',  # Primary key for upsert operations
                 'column_mapping': {
@@ -228,7 +228,7 @@ class DatabaseConfig:
                 'sync': True,
                 'columns': None,  # None means all columns
                 'condition': None, #"X02 > '2025-03-31'",  # X02 is the datetime column
-                'sync_mode': 'full',  # 'full' or 'incremental'
+                'sync_mode': 'incremental',  # 'full' or 'incremental'
                 'timestamp_column': 'X02',  # Column for incremental sync tracking
                 'primary_key': 'ID',  # Primary key for upsert operations
                 'column_mapping': {  # Map MSSQL columns to MariaDB columns 
@@ -246,7 +246,7 @@ class DatabaseConfig:
                 'sync': True,
                 'columns': None,  # None means all columns
                 'condition': None,
-                'sync_mode': 'full',  # 'full' or 'incremental'
+                'sync_mode': 'incremental',  # 'full' or 'incremental'
                 'timestamp_column': None,  # Column for incremental sync tracking
                 'primary_key': 'ID',  # Primary key for upsert operations
                 'column_mapping': {  # Map MSSQL columns to MariaDB columns 
