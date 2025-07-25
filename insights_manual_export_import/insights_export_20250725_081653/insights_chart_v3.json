@@ -1,0 +1,30 @@
+[
+  {
+    "name": "djb1chvnj6",
+    "docstatus": 0,
+    "title": " CHUYỀN 1 - KẾT QUẢ KIỂM HÀNG INLINE - THEO CÔNG ĐOẠN",
+    "workbook": "12",
+    "query": "d54efu19h7",
+    "data_query": "djb82mf5p9",
+    "chart_type": "Bar",
+    "is_public": 0,
+    "config": "{\n \"filters\": {\n  \"filters\": [\n   {\n    \"column\": {\n     \"column_name\": \"line\",\n     \"type\": \"column\"\n    },\n    \"operator\": \"=\",\n    \"value\": 1\n   }\n  ],\n  \"logical_operator\": \"And\"\n },\n \"limit\": 100,\n \"order_by\": [],\n \"x_axis\": {\n  \"dimension\": {\n   \"column_name\": \"process_viet\",\n   \"data_type\": \"String\",\n   \"dimension_name\": \"process_viet\",\n   \"label\": \"process_viet\",\n   \"value\": \"process_viet\"\n  },\n  \"label_rotation\": \"30\"\n },\n \"y_axis\": {\n  \"normalize\": false,\n  \"overlap\": false,\n  \"series\": [\n   {\n    \"measure\": {\n     \"aggregation\": \"sum\",\n     \"column_name\": \"total_qty_ok\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"S\\u1ed1 l\\u01b0\\u1ee3ng \\u0111\\u1ea1t\"\n    }\n   },\n   {\n    \"measure\": {\n     \"aggregation\": \"sum\",\n     \"column_name\": \"qty_ng\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"S\\u1ed1 l\\u01b0\\u1ee3ng l\\u1ed7i\"\n    }\n   },\n   {\n    \"align\": \"Right\",\n    \"color\": [\n     \"#ff6633\"\n    ],\n    \"measure\": {\n     \"aggregation\": \"avg\",\n     \"column_name\": \"defect_ratio\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"T\\u1ec9 l\\u1ec7 l\\u1ed7i\"\n    },\n    \"show_data_labels\": true,\n    \"type\": \"Line\"\n   }\n  ],\n  \"show_axis_label\": true,\n  \"show_data_labels\": true,\n  \"stack\": true\n }\n}",
+    "old_name": null,
+    "doctype": "Insights Chart v3",
+    "read_only": false
+  },
+  {
+    "name": "5bsknt822h",
+    "docstatus": 0,
+    "title": " CHUYỀN 1 - KẾT QUẢ KIỂM HÀNG INLINE - THEO NGÀY",
+    "workbook": "12",
+    "query": "45rcvmvahj",
+    "data_query": "5bs1bl81rk",
+    "chart_type": "Bar",
+    "is_public": 0,
+    "config": "{\n \"filters\": {\n  \"filters\": [\n   {\n    \"column\": {\n     \"column_name\": \"line\",\n     \"type\": \"column\"\n    },\n    \"operator\": \"=\",\n    \"value\": 1\n   }\n  ],\n  \"logical_operator\": \"And\"\n },\n \"limit\": 100,\n \"order_by\": [],\n \"split_by\": {\n  \"dimension\": {\n   \"column_name\": \"\",\n   \"data_type\": \"String\",\n   \"dimension_name\": \"\"\n  },\n  \"max_split_values\": 10\n },\n \"x_axis\": {\n  \"dimension\": {\n   \"column_name\": \"production_date\",\n   \"data_type\": \"String\",\n   \"dimension_name\": \"production_date\",\n   \"granularity\": \"day\",\n   \"label\": \"production_date\",\n   \"value\": \"production_date\"\n  },\n  \"label_rotation\": \"45\"\n },\n \"y_axis\": {\n  \"axis_label\": \"Pcs\",\n  \"min\": \"0\",\n  \"normalize\": false,\n  \"overlap\": false,\n  \"series\": [\n   {\n    \"measure\": {\n     \"aggregation\": \"sum\",\n     \"column_name\": \"total_qty_ok\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"S\\u1ed1 l\\u01b0\\u1ee3ng \\u0111\\u1ea1t\"\n    }\n   },\n   {\n    \"measure\": {\n     \"aggregation\": \"sum\",\n     \"column_name\": \"total_qty_ng\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"S\\u1ed1 l\\u01b0\\u1ee3ng l\\u1ed7i\"\n    }\n   },\n   {\n    \"align\": \"Right\",\n    \"color\": [\n     \"#ff6633\"\n    ],\n    \"measure\": {\n     \"aggregation\": \"avg\",\n     \"column_name\": \"defect_ratio\",\n     \"data_type\": \"Decimal\",\n     \"measure_name\": \"T\\u1ec9 l\\u1ec7 l\\u1ed7i\"\n    },\n    \"show_data_labels\": true,\n    \"type\": \"Line\"\n   }\n  ],\n  \"show_axis_label\": true,\n  \"show_data_labels\": true,\n  \"show_scrollbar\": false,\n  \"stack\": true\n }\n}",
+    "old_name": null,
+    "doctype": "Insights Chart v3",
+    "read_only": false
+  }
+]

@@ -88,6 +88,17 @@ class InsightsManualTransfer:
         # Change to the bench directory where sites folder exists
         original_cwd = os.getcwd()
         bench_path = "/home/sonnt/frappe-bench"  # Adjust this path as needed
+        
+        # Find bench directory automatically if not at default path
+        if not os.path.exists(bench_path):
+            # Try to find bench directory from current path
+            current = os.getcwd()
+            while current != '/':
+                if os.path.exists(os.path.join(current, 'sites')) and os.path.exists(os.path.join(current, 'apps')):
+                    bench_path = current
+                    break
+                current = os.path.dirname(current)
+        
         os.chdir(bench_path)
         
         # Debug: Check if we're in the right place
@@ -100,6 +111,7 @@ class InsightsManualTransfer:
             frappe.connect()
         except Exception as e:
             os.chdir(original_cwd)  # Restore original directory
+            self.log(f"Failed to initialize Frappe: {str(e)}", "ERROR")
             raise e
         
         export_summary = {

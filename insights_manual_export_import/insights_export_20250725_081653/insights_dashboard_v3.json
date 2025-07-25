@@ -1,0 +1,47 @@
+[
+  {
+    "name": "f81vv1kkkj",
+    "docstatus": 0,
+    "title": "Dashboard 1",
+    "preview_image": null,
+    "share_link": null,
+    "workbook": "12",
+    "is_public": 1,
+    "items": "[\n {\n  \"chart\": \"5bsknt822h\",\n  \"layout\": {\n   \"h\": 5,\n   \"i\": \"xrbjsoi.\",\n   \"moved\": false,\n   \"w\": 20,\n   \"x\": 0,\n   \"y\": 0\n  },\n  \"type\": \"chart\"\n },\n {\n  \"chart\": \"djb1chvnj6\",\n  \"layout\": {\n   \"h\": 6,\n   \"i\": \"5mq9d6w9\",\n   \"moved\": false,\n   \"w\": 20,\n   \"x\": 0,\n   \"y\": 5\n  },\n  \"type\": \"chart\"\n }\n]",
+    "old_name": null,
+    "doctype": "Insights Dashboard v3",
+    "linked_charts": [
+      {
+        "name": "s6kl33vc2d",
+        "owner": "Administrator",
+        "creation": "2025-07-24 13:52:05.217898",
+        "modified": "2025-07-24 13:52:05.217898",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 1,
+        "chart": "5bsknt822h",
+        "parent": "f81vv1kkkj",
+        "parentfield": "linked_charts",
+        "parenttype": "Insights Dashboard v3",
+        "doctype": "Insights Dashboard Chart v3"
+      },
+      {
+        "name": "s6kqgcqdd1",
+        "owner": "Administrator",
+        "creation": "2025-07-24 13:52:05.218290",
+        "modified": "2025-07-24 13:52:05.218290",
+        "modified_by": "Administrator",
+        "docstatus": 0,
+        "idx": 2,
+        "chart": "djb1chvnj6",
+        "parent": "f81vv1kkkj",
+        "parentfield": "linked_charts",
+        "parenttype": "Insights Dashboard v3",
+        "doctype": "Insights Dashboard Chart v3"
+      }
+    ],
+    "read_only": false,
+    "people_with_access": [],
+    "is_shared_with_organization": false
+  }
+]

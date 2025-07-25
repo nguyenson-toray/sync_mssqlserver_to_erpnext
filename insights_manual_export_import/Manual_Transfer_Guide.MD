@@ -190,7 +190,7 @@ Total records exported: 3
 cd ~/frappe-bench
 
 # Sử dụng Frappe's Python environment
-./env/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py export erp-sonnt.tiqn.local
+./venv/bin/python sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import/insights_manual_export_import.py export erp-sonnt.tiqn.local
 
 # Hoặc từ thư mục script
 cd sync_mssqlserver_to_erpnext/sync_mssqlserver_to_erpnext/insights_manual_export_import

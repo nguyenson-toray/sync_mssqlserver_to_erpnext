@@ -1,0 +1,30 @@
+{
+  "export_time": "2025-07-25T08:16:53.665291",
+  "site": "erp-sonnt.tiqn.local",
+  "exported": {
+    "Insights Data Source": {
+      "count": 2,
+      "file": "insights_data_source.json"
+    },
+    "Insights Workbook": {
+      "count": 1,
+      "file": "insights_workbook.json"
+    },
+    "Insights Query v3": {
+      "count": 4,
+      "file": "insights_query_v3.json"
+    },
+    "Insights Chart v3": {
+      "count": 2,
+      "file": "insights_chart_v3.json"
+    },
+    "Insights Dashboard v3": {
+      "count": 1,
+      "file": "insights_dashboard_v3.json"
+    },
+    "Insights Dashboard Chart v3": {
+      "count": 2,
+      "file": "insights_dashboard_chart_v3.json"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "s6kqgcqdd1",
+    "docstatus": 0,
+    "chart": "djb1chvnj6",
+    "parent": "f81vv1kkkj",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3",
+    "doctype": "Insights Dashboard Chart v3"
+  },
+  {
+    "name": "s6kl33vc2d",
+    "docstatus": 0,
+    "chart": "5bsknt822h",
+    "parent": "f81vv1kkkj",
+    "parentfield": "linked_charts",
+    "parenttype": "Insights Dashboard v3",
+    "doctype": "Insights Dashboard Chart v3"
+  }
+]
